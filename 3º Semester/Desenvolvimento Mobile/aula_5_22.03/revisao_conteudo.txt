@@ -1,0 +1,145 @@
+inrodução ao adnroid 
+
+slide 54: setContentView é o responsável por linkar o xml da pagina com o Main 
+
+58
+    Qualquer recurso definido na classe R pode ser
+    utilizado, tanto em outros recursos como nas classes
+    Kotlin / Java.
+
+    Dentro de arquivos XML, o padrão de uso dos
+    recursos é sempre o mesmo.
+    @tipoRecurso/nome_recurso
+
+O tip do recurso é o nome da pasta.
+
+Para os outros, o nome do recurso está dentro do
+arquivo correspondente (strings.xml, styles.xml).
+
+O nome do arquivo representa o tipo de recurso.
+
+Exemplos:
+
+@layout/activity_main
+– Tipo de recurso: layout.
+– Nome do recurso: activity_main.
+– Arquivo de layout com nome activity_main.xml
+dentro da pasta res/layout.
+
+Exemplos:
+
+@string/mensagem
+– Tipo de recurso: string.
+– Nome do recurso: mensagem.
+– Texto com o identificador mensagem dentro do
+arquivo strings.xml na pasta res/.
+
+Nas classes Kotlin/Java, também existe um padrão de uso:
+
+R.tipoRecurso.nome_recurso
+– Para imagens e arquivos de layout, o nome do recurso é o
+  nome do arquivo sem a extensão
+– O tipo do recurso é o nome da pasta (layout, drawable).
+– Para os outros, o nome do recurso está dentro do arquivo 
+  correspondente (strings.xml, styles.xml).
+– O nome do arquivo representa o tipo de recurso.
+
+Exemplos:
+
+R.layout.activity_main
+– Tipo de recurso: layout.
+– Nome do recurso: activity_main.
+– Arquivo de layout com nome activity_main.xml
+dentro da pasta res/layout.
+
+Exemplos:
+
+R.string.mensagem
+– Tipo de recurso: string.
+– Nome do recurso: mensagem.
+– Texto com o identificador mensagem dentro do
+arquivo strings.xml na pasta res/.
+
+Activity: Controller; Arquivo XML de layout: View. 
+activity manda na lógica e xml layout na view
+
+Para acessar qualquer arquivo de layout dentro de uma
+classe kotlin/java, utiliza-se o padrão:
+R.layout.nome_aquivo
+
+
+Pasta res – string.xml
+
+• strings.xml é um arquivo de recursos com as mensagens e
+textos do aplicativo.
+– Organizar os textos em um arquivo.
+– Suporte a internacionalização (vários idiomas).
+• Quando o aplicativo é criado, este arquivo contém o nome do
+aplicativo.
+<string name="app_name">LMSApp</string>
+
+• Cada recurso é definido pelo atributo name.
+– O valor está entre a abertura e o fechamento do marcador.
+
+Estes recursos podem ser utilizados em qualquer arquivo xml
+do projeto.
+– AndroidManifest.
+– Outros recursos, como layout.
+• Para acessar qualquer recurso de string de um arquivo XML
+(como layout), basta utilizar o seguinte padrão.
+– @string/nome_recurso.
+– Por exemplo: @string/app_name. nome do arquivo/o que vc quer pegar
+
+Veja no arquivo XML que o atributo src foi
+configurado para a imagem selecionada
+@drawable/nome_imagem.
+
+app: srcCompat é usado pra pegar algo de outro arquivo usado no activity
+
+• Outra forma de definir o recurso de imagem em um elemento
+de tela é a partir do código Kotlin/Java.
+– Neste caso, utilizamos a referência para a classe R.
+• Para isso será necessário definir um identificador para a
+ImageView do layout.
+– Localize o atributo android:id na ImageView do seu Layout.
+– Repare na sintaxe do valor deste atributo: @+id/identificador.
+– id é o tipo do recurso.
+– Identificador é o nome que o programador cria.
+
+android:id = @+id/imageView2
+
+View Binding
+
+View Binding é um recurso do Android que facilita a
+programação de códigos que utilizam elementos da interface
+gráfica (View).
+• Sempre que o View Binding é utilizado, uma classe que
+representa o arquivo xml de layout é criada
+automaticamente.
+• Quando o app é executado, uma instância dessa classe é
+criada, com referência a todos os elementos de tela do
+arquivo xml que ela referencia.
+
+Tratamento de eventos
+
+Os eventos de tela são vinculados tratados dentro da
+Activity.
+• A vinculação de um evento é feito utilizando o método
+setOnClickListener.
+• Este método pode receber como argumento uma
+função anônima, que será responsável por tratar o
+evento.
+– Ou seja, será executada quando acontecer o evento.
+
+Por exemplo, mostrar uma mensagem Toast após clicar no
+botão.
+– Repare na sintaxe lambda do Kotlin.
+
+binding.botaoLogin.setOnClickListener {
+
+Toast.makeText(this,
+
+"Clicou no botão",
+Toast.LENGTH_LONG).show())
+
+}

@@ -1,0 +1,91 @@
+primeiro bloco artefatos = [15, 16, 17, 18, 19]
+
+Arquitetura de Software (artafo DFD) =--> Diagrama de Fluxo de Dados
+
+CRUD =  Create Read Update Delete (1 Processo)
+BPN = Boas Praticas de Negocios 
+
+Diagrama de Fluxo de Dados = artefato DFD
+
+'deposito de dadosd'
+
+"6 critérios hoje terá 4" 
+
+ 1 - Multiplas Perspectivas de Análise { 
+ 
+ perspectiva de: [eventos. processos, dados] IMPORTANTE será bem abordado
+ -processos são criados para atender os eventos, ex funcionário do mc esperando cliente
+  dados são gerados a partir desses processos.
+  dados são extremamente valiosos Importante
+
+  dado cumpre um ciclo de vida operacional e entra em outro : "O ciclo de Análise"
+}
+
+2- Neutralidade Tecnológica {
+    um exemplo são os bancos que eles tem a mesma função mas possuem softwares diferentes 
+
+    pra entender melhor o negócio do cliente, NÃO PENSE EM SOFTWARE NESSE PONTO APENAS 
+
+    momento As IS avaliar o processo do cliente, TO BE aí começa a parada do software
+    elemento humano
+}
+
+3= Partição Por Eventos {
+    relação 1 x 1 
+    
+    Ex de evento, houve um assalto e os Envolvidos vao fazer um Bo
+    Ex de processos, os policiais fazer o BO pros Envolvidos
+
+    o Bo foi um exemplo de Neutralidade Tecnológica no ex o policial faz o BO na mão
+
+    Bola = Processo
+    Retangulo = Evento
+
+    Seta pra cima = consultar Dados
+    Pra baixo = passar Dados 
+    Pros dois lados = consulta e passa Dados
+}
+
+4- Ato Contínuo {
+    Play do processo = Evento
+
+    Processo vai ser contínuo se houver uma interropção o processo será terminado "relação 1x1"
+}
+cada capacidade do artefato 15 será um DFD a parte 1 X 1  1 - Capacidade x 1 - DFD 
+
+Estímulo são Eventos
+Evento Temporal "é o tempo que os prcosessos estão acontencendo" 
+
+nível de cenários operaionais 
+nível dos nós operaionais
+nível de capacidades operacionais
+
+nível das subcapacidade 
+
+Nome dos processos, sempre no infinitivo (Boas Práticas)
+
+Entidade Externa é quem realiza o evento
+e gera um Estímulo para o processo
+que trará Dados sobre que vai precisar pra realizar esse processo
+
+a ordem das setas é o sentido de onde tá vindo e pra onde tá indo
+
+Ex CRIAÇÃO DE UM PEDIDO NO mc
+
+Seta pra cima = consultar Dados
+Pra baixo = passar Dados 
+Pros dois lados = consulta e passa Dados
+
+EVENTOS > ENTIDADE > PROCESSO > DADOS 
+
+METÁFORAS{
+    menos é mais, simplificar é mais vantajoso
+}
+
+eventos conversa com processo
+
+processo conversa com base de dados
+
+PROCESSO COM PROCESSO NÃO CONVERSÃO
+
+CHECK LIST VAI SER USADO NA CORRAÇÃO DAS ATIVIDADES

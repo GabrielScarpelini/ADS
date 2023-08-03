@@ -1,0 +1,114 @@
+fun enviaEmail(usuario: String, titulo: String? = null): String{ // esse :String é que retorna str
+    var s = titulo?: "bem vindo"                     //tipo do retorno
+    return "$s $usuario"
+}
+
+fun imprimir(s: String) = println(s) // função resumida
+fun soma(a:Int, b:Int) = println(a+b)
+
+fun main(args: Array<String>) {
+    val a1 = Aluno("Carmen", 20) //EX de objeto
+     println(a1)
+     println("Aluno: ${a1.nome}, idade: ${a1.idade}")
+ 
+    
+    println(enviaEmail("gabriel" , "olá")) // passando os dois params
+    println(enviaEmail(usuario = "Gabs")) // o elvis faz com que mesmo sem atribuir volte algo
+    
+    soma(5,6)
+    
+    var algo: String? = "algo"
+    var a = 2
+    val b = 3
+    val carinha = ";D"
+    var nome: String = "Gabriel" //definiu o tipo da variável
+    
+    println("Hello, world!!!")
+    println(carinha)
+    println("***************************")
+    
+    println("o valor de A + B é ${a*b}")//separa as linhas 
+    println("$nome possui ${nome.length} letras") // string formatada, usa "" e $
+    println("***************************")
+    
+    nome = "Scarpelini" // por ser var pode ser reatriuida
+    println("$nome possui ${nome.length} letras")
+    println("***************************")
+    
+    println(algo)
+    algo = null //por ter o ? na tipagem alí ele aceita null
+    
+    if (algo is String){ // ow null 
+        println("$algo é uma string")
+    }else{
+        println("$algo alterado")
+    }
+    println("***************************")
+    
+    if (algo != null){
+        println("$algo tem ${algo.length} letras")
+    }else{
+        println("ele nulo")
+    }
+    println("***************************")
+    
+    if (a>b) println("true") else println("false") // operador ternário em kotlin
+    
+    println("***************************")
+    
+    print("não quebra linha ===> ")
+    print("print não quebra linha")
+}
+
+// comments
+/*
+ SINTAXE
+
+main : por onde o programa começa, precisa chamar ele pra executar 
+comments // /**/
+fun = é a definição de função
+var = variável comum
+val = é uma variável constante 
+elvis = se não for nulo usa um valor, se for usa outro (valor padrão na função)
+? = no safety (não seguro)
+
+CONVERSÃO DE TIPOS DA VARIÁVEL
+as? : int 
+is : verifica o tipo de uma variável
+
+print(printa tudo em uma linha) 
+println(print em linha separada)
+'' = para caracter individual 'l'
+\n quebra linha
+ 
+  */
+  
+/*POO orientado a objeto
+ classe e objetos 
+ */ 
+ 
+ class Aluno(nome : String, idade: Int){
+     val nome :String
+     val idade: Int
+     
+     init {
+         this.nome = nome
+         this.idade = idade
+     }
+     override fun toString(): String{
+         return "Aluno: $nome, idade: $idade"
+     }
+ }
+ 
+ class Carro(nome: String, ano: Int){
+     val nome: String
+     val ano: Int
+     
+     init{
+         this.nome = nome
+         this.ano = ano
+     }
+     fun acelerar(velocidade = Int)
+ }
+ 
+ 

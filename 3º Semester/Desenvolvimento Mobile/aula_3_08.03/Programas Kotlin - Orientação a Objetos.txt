@@ -1,0 +1,65 @@
+//////////////////////////////////////////////////////
+/* Classes */
+package org.kotlinlang.play
+
+class Aluno(nome: String, idade: Int) { 
+    val nome: String 
+    val idade: Int
+
+    init { 
+        // bloco de inicialização 
+        this.nome = nome 
+        this.idade = idade 
+    } 
+
+    override fun toString(): String { 
+        return "Aluno: $nome, 
+                idade: $idade" 
+    } 
+} 
+
+fun main(args: Array<String>) { 
+    val a1 = Aluno("Carmen", 20) 
+    println(a1) 
+    println("Aluno: ${a1.nome}, 
+    idade: ${a1.idade}") 
+}     
+//////////////////////////////////////////////////////
+/* Herança */
+package org.kotlinlang.play
+
+open class Pessoa(nome: String, idade: Int) { 
+    val nome: String 
+		val idade: Int
+		
+    init {
+			// bloco de inicialização 
+			this.nome = nome 
+			this.idade = idade 
+    } 
+		
+    open fun adicionarDesconto(desconto: Int) { 
+        println("Desconto para a pessoa de $desconto") 
+    }
+		
+    override fun toString(): String { 
+        return "Pessoa: $nome, idade: $idade" 
+    } 
+		
+} 
+
+class Aluno(nome: String, idade: Int): Pessoa(nome, idade) { 
+    override fun adicionarDesconto(desconto: Int) { 
+		
+        println("Desconto para o aluno de $desconto") 
+    } 
+		
+} 
+
+fun main(args: Array<String>) { 
+    val a1 = Aluno("Carmen", 20) 
+    println(a1) 
+    println("Aluno: ${a1.nome}, idade: ${a1.idade}") 
+    a1.adicionarDesconto(10) 
+} 
+//////////////////////////////////////////////////////

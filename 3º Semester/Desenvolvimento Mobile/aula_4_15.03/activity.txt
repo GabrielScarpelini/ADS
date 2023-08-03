@@ -1,0 +1,3 @@
+cada tela deve ser uma activity
+
+deve ser delcarada em android manifest

@@ -1,0 +1,26 @@
+val encontrarPesoIdeal = {h: Double, gender: String -> if (gender == "M") 72.7 * h - 58 else 62.1 * h - 44.7}
+
+
+fun main() {
+    println(encontrarPesoIdeal(1.80, "F"))
+}
+
+
+varsão do lago
+
+fun calculaPesoIdeal (h:Double,calculo: (Double) -> (Double)):Double{
+   return calculo(h)
+  
+}
+
+fun pesoHomem ( h:Double) = 72.7 * h - 58
+fun pesoMulher (h:Double) = 62.1 * h - 44.7
+
+fun main() {
+      
+     var homem = calculaPesoIdeal(1.70,{pesoHomem(it)})
+     println(homem)
+     var mulher = calculaPesoIdeal (1.65, {pesoMulher(it)})
+     println(mulher)
+    
+}

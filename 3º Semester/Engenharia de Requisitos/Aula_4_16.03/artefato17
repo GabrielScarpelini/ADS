@@ -1,0 +1,35 @@
+Aprofundar o entedimento dos eventos
+
+Filtrar com o cliente os problemas e entender os eventos que são relevantes pra mim
+
+Cada evento (acontecimento) vai gerar um processo
+
+Capacidade (TEM QUE SER OS MESMOS DO ARTEFATO 15)
+
+Tempotal Não evento algo que acontece mas não deveria, e não foi esperado
+
+EU VOU CONTROLAR ISSO NO SOFTWARE
+    se sim colocar 
+    se não, não coloca
+
+NÚMERO ENTRE PARENTESES indica a dependencia um evento e outro (1) depende do 1º processo
+
+
+CADA EVENTO É UM PROCESSO 
+
+
+FB Fluxo Básico (obrigatório)
+FA Fluxo Alternativo esporádico
+
+Quando um FA vem interno é uma FALHA
+
+Sujeito Verbo no presente do indicativo e Complemento
+Wally Escreve um Livro
+
+
+1st step pra criar esse artefato 
+    Criar uma lista com todos os eventos 
+
+Eventos externos (cliente faz pedido)
+Eventos temporais (entidade interna)
+Eventos extemporâneos ow esporádico (algo que acontece esporádicamente)

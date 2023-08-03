@@ -1,0 +1,45 @@
+A classe Activity é uma das classes mais importantes
+no Android.
+– Geralmente ela representa uma tela no aplicativo.
+– É responsável por definir qual será a View que
+desenha a interface gráfica.
+– É responsável por controlar os eventos da tela.
+
+Usualmente um aplicativo tem mais de uma tela, e
+consequentemente mais de uma Activity.
+– Sempre que for criar uma nova tela no aplicativo, é
+necessário ter uma Activity relativa a esta tela.
+
+- Activity = Atividade = Ações e funcionalidades que o
+usuário pode fazer no app.
+
+Uma classe de Activity deve herdar todas as
+características (atributos) e comportamento
+(métodos) da classe adroid.app.Activity, ou alguma
+subclasse desta.
+– Por exemplo, AppCompatActivity ou
+FragmentActivity (ambas são subclasses de
+Activity).
+
+– FragmentActivity permite utilizar fragments em
+versões antigas do Android.
+– AppCompatActivity possibilita que a ActionBar
+(barra superior dos aplicativo) funcione e versões
+antigas do Android.
+• É subclasse de FragmentActivity.
+
+Ciclo de Vida de uma Atividade
+
+Ciclo de vida está relacionado aos estados que uma
+Activity se encontra.
+– Executando.
+– Temporariamente interrompida (segundo plano).
+– Destruída.
+• O sistema operacional é responsável por cuidar deste
+ciclo de vida.
+• Entretanto, um aplicativo robusto se preocupa em
+tratar estes estados. 
+
+
+
+

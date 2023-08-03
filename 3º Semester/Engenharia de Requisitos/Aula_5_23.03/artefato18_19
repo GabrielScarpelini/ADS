@@ -1,0 +1,31 @@
+As is >>> To be 
+
+Como a prof disse esses dois artefatos são bem simples.
+
+Artefato 18 => Descrição dos Processos de Negócio  
+
+1 pra 1 em processo e Descrição
+
+Pode usar as proprias palavras, desde que não deixe de seguir as boas práticas
+
+EXEMPLO
+        Processo = anotar pedido 
+                \/
+        Evento = cliente faz pedido 
+                \/
+        Objetivo = anotar pedido do cliente
+                \/
+        Workers involved = Atendente
+
+Os diagrama do DFD > Criar o cabeçalho > > Lista acima
+
+Artefato 19 => Regras do Negócio
+
+Estipulado pelo cliente, assim regras a serem seguidas pelo cliente
+
+
+
+
+
+
+

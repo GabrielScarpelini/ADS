@@ -1,0 +1,488 @@
+///////////////////////////////////////////////////////
+---------- DebugActivity.kt ----------
+///////////////////////////////////////////////////////
+package br.com.ahcatani.lmsapp3
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.util.Log
+
+open class DebugActivity : AppCompatActivity() {
+
+    private val TAG = "LMSApp3"
+    private val className: String
+        get() {
+            val s = javaClass.name
+            return s.substring(s.lastIndexOf("."))
+        }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.d(TAG, className + ".onCreate() chamado")
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d(TAG, className + ".onStart() chamado")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG, className + ".onRestart() chamado")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, className + ".onResume() chamado")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d(TAG, className + ".onPause() chamado")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, className + ".onStop() chamado")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG, className + ".onDestroy() chamado")
+
+    }
+}
+///////////////////////////////////////////////////////
+---------- LoginActivity.kt ----------
+///////////////////////////////////////////////////////
+package br.com.ahcatani.lmsapp3
+
+import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Toast
+import br.com.ahcatani.lmsapp3.databinding.ActivityLoginBinding
+
+class LoginActivity : DebugActivity() {
+
+    private val context: Context get() = this
+
+    private val binding by lazy {
+        ActivityLoginBinding.inflate(layoutInflater)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // setContentView(R.layout.activity_login)
+
+        setContentView(binding.root)
+        binding.imgLogin.setImageResource(R.drawable.img_sala)
+
+        binding.btnLogin.setOnClickListener {
+            onClickLogin()
+        }
+
+    }
+
+    fun onClickLogin() {
+        binding.msgLogin.text = "Faça o seu Login na Empresa"
+        val builder = AlertDialog.Builder(this)
+        if (!(binding.camUsuario.text.toString().equals("Elisa"))) {
+            builder.setTitle("Informações do Login:")
+            builder.setMessage("Usuário(a) NÂO Catatrado(a).")
+            builder.create()
+            builder.show()
+        } else if (!(binding.camPassword.text.toString().equals("12345"))) {
+            builder.setTitle("Informações do Login:")
+            builder.setMessage("Password Inválida.")
+            builder.create()
+            builder.show()
+        } else {
+            val intent = Intent(context, TelaInicialActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+}
+///////////////////////////////////////////////////////
+---------- MainActivity.kt ----------
+///////////////////////////////////////////////////////
+package br.com.ahcatani.lmsapp3
+
+import android.content.Context
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import br.com.ahcatani.lmsapp3.databinding.ActivityMainBinding
+
+class MainActivity : DebugActivity() {
+
+    private val context: Context get() = this
+
+    private val binding by lazy {
+        ActivityMainBinding.inflate(layoutInflater) }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+      //  setContentView(R.layout.activity_main)
+        setContentView(binding.root)
+
+        binding.root.setOnClickListener() {
+            onClickLogin()
+        }
+    }
+
+    fun onClickLogin() {
+        val intent = Intent(context, LoginActivity::class.java)
+        startActivity(intent)
+    }
+}
+///////////////////////////////////////////////////////
+---------- PaisesActivity.kt ----------
+///////////////////////////////////////////////////////
+package br.com.ahcatani.lmsapp3
+
+import android.content.Context
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import br.com.ahcatani.lmsapp3.databinding.ActivityPaisesBinding
+
+class PaisesActivity : AppCompatActivity() {
+
+    private val context: Context get() = this
+
+    private val binding by lazy {
+        ActivityPaisesBinding.inflate(layoutInflater)
+    }
+
+    val paises = listOf("Alemanha",
+        "Brasil",
+        "Estados Unidos",
+        "Inglaterra",
+        "Italia")
+    val localizacao = listOf("Europa",
+        "América do Sul",
+        "América do Norte",
+        "Europa",
+        "Europa")
+    val idioma = listOf("alemão", "português", "inglês", "inglês", "italiano")
+    val habitantes = listOf("81.166.671",
+        "190.732.094",
+        "331.893.745",
+        "55.619.400",
+        "59.030.133")
+    val area = listOf("356.733 Km2",
+        "8.503.872 Km2",
+        "9.831.510 Km2",
+        "130.395 Km2",
+        "301.388 Km2")
+    val bandeira = listOf(R.drawable.img_bandeira_alemanha,
+        R.drawable.img_bandeira_brasil,
+        R.drawable.img_bandeira_usa,
+        R.drawable.img_bandeira_inglaterra,
+        R.drawable.img_bandeira_italia)
+    val mapa = listOf(R.drawable.img_mapa_alemanha,
+        R.drawable.img_mapa_brasil,
+        R.drawable.img_mapa_usa,
+        R.drawable.img_mapa_inglaterra,
+        R.drawable.img_mapa_italia)
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(binding.root)
+        val args = intent.extras
+        val pais = args?.getString("nome")
+        val pos = paises.indexOf(pais)
+        binding.camPais.text = pais
+        binding.camLocalizacao.text = localizacao[pos]
+        binding.camHabitantes.text = habitantes[pos].toString()
+        binding.camArea.text = area[pos].toString()
+        binding.camIdioma.text = idioma[pos]
+        binding.imgBandeira.setImageResource(bandeira[pos])
+        binding.imgMapa.setImageResource(mapa[pos])
+    }
+}
+///////////////////////////////////////////////////////
+---------- TelaInicialActivity.kt ----------
+///////////////////////////////////////////////////////
+package br.com.ahcatani.lmsapp3
+
+import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Toast
+import br.com.ahcatani.lmsapp3.databinding.ActivityTelaInicialBinding
+
+class TelaInicialActivity : DebugActivity() {
+
+    private val context: Context get() = this
+
+    private val binding by lazy {
+        ActivityTelaInicialBinding.inflate(layoutInflater)
+    }
+
+    val paises = listOf("Alemanha",
+                        "Brasil",
+                        "Estados Unidos",
+                        "Inglaterra",
+                        "Italia")
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(binding.root)
+
+        binding.btnPaises.setOnClickListener {
+            onClickPaises()
+        }
+
+    }
+
+    fun onClickPaises() {
+        val intent = Intent(context, PaisesActivity::class.java)
+        val params = Bundle()
+        val nomePais = binding.camPais.text.toString()
+        val pos = paises.indexOf(nomePais)
+        val builder = AlertDialog.Builder(this)
+        if (pos == -1) {
+            builder.setTitle("Informações do País")
+            builder.setMessage("País Não Cadastrado.")
+            builder.create()
+            builder.show()
+        }
+        else {
+            params.putString("nome", nomePais)
+            intent.putExtras(params)
+            startActivity(intent)
+        }
+    }
+}
+
+
+
+    /*
+        val args = intent.extras
+        val nome = args?.getString("nome")
+        Toast.makeText(context, "Parâmetro: $nome", Toast.LENGTH_LONG).show()
+
+        binding.camTelaInicial.text = "nome"
+*/
+///////////////////////////////////////////////////////
+---------- activity_login.xml ----------
+///////////////////////////////////////////////////////
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/msg_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/txt_login" />
+
+    <TextView
+        android:id="@+id/tit_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/txt_usuario" />
+
+    <EditText
+        android:id="@+id/cam_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="@string/txt_hintUsuario"/>
+
+    <TextView
+        android:id="@+id/tit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/txt_password"/>
+
+    <EditText
+        android:id="@+id/cam_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="@string/txt_hintPassword"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/txt_btnLogin" />
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        app:srcCompat="@drawable/img_dinoazul" />
+
+</LinearLayout>
+///////////////////////////////////////////////////////
+---------- activity_main.xml ----------
+///////////////////////////////////////////////////////
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+///////////////////////////////////////////////////////
+---------- activity_paises.xml ----------
+///////////////////////////////////////////////////////
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/NomePaís"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nome do País:" />
+
+    <TextView
+        android:id="@+id/cam_pais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Localização"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Localização:" />
+
+    <TextView
+        android:id="@+id/cam_localizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Número de Habitantes:" />
+
+    <TextView
+        android:id="@+id/cam_habitantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Área (Km2):" />
+
+    <TextView
+        android:id="@+id/cam_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Idioma:" />
+
+    <TextView
+        android:id="@+id/cam_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Bandeira:" />
+
+    <ImageView
+        android:id="@+id/img_bandeira"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Mapa" />
+
+    <ImageView
+        android:id="@+id/img_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>
+///////////////////////////////////////////////////////
+---------- activity_tela_inicial.xml ----------
+///////////////////////////////////////////////////////
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/cam_pais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:hint="Informe o Nome do País" />
+
+    <Button
+        android:id="@+id/btn_paises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAÍSES"
+        android:textSize="20sp" />
+
+</LinearLayout>

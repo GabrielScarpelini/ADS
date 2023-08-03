@@ -1,0 +1,39 @@
+fun <T> recorrencia(list: MutableList<T>, x: T): Int{
+    var cont: Int = 0
+    for (i in list){
+        if (x == i){
+            cont = cont + 1
+        }
+    }
+    return cont
+}
+
+
+fun main() {
+   	var lista =  mutableListOf("a", "a", "a")
+    var nome = mutableListOf("laguinho", "skarpa")
+    var numbers = mutableListOf(1,1,3,5,9,9,9,6,5,1)
+    lista.add("a")
+    nome.add("igor")
+    nome.add("igor")
+    nome.add("igor")
+    nome.add("dani")
+    nome.add("dani")
+    nome.add("skarpa")
+    nome.add("skarpa")
+    nome.add("laguinho")
+    println(recorrencia(lista, "b"))
+    println(recorrencia(nome, "skarpa"))
+    println(recorrencia(numbers, 5))
+}
+
+fun <T> contarElementos(lista: List<T>, elemento: T): Int {
+    return lista.count { it == elemento }
+}
+
+fun main() {
+    val minhaLista = listOf("a", "b", "c", "a", "d", "a")
+    val elementoBuscado = "a"
+    val quantidade = contarElementos(minhaLista, elementoBuscado)
+    println("O elemento $elementoBuscado aparece $quantidade vezes na lista.")
+}

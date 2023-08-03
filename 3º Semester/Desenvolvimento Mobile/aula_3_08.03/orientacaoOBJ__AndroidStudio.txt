@@ -1,0 +1,36 @@
+getters são métodos que usa para pegar uma info dentro do OBJ
+setters são métodos para mudar dados dentro do OBJ
+
+Android studio
+
+funciona com Kotlin e com Java
+
+LMS Leaning Management System
+
+activity = a tela do APP
+
+res > layout > activity_main: onde vamos mudar o layout
+
+res > values > string.xml
+
+res > drawable para colocar imagem 
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Faça seu Login:" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        app:srcCompat="@drawable/dawn" />
+</LinearLayout>

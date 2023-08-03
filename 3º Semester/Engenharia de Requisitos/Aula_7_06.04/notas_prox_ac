@@ -1,0 +1,20 @@
+terá que ser feito o um diagrama de classes (como era feito no fund de BD)
+
+Diagram de classe ow de entidade e relacionamento 
+
+depósito de dados = são classes 
+
+Artefato 20 usa o 16 
+
+Artefato 21 Análise do ciclo de vida 
+
+usar o Depósito de Dados que tem mais relacionamentos para fazer o artefato 21
+
+O dados nasce apenas de uma forma, olhar eventos e processos que já foram organizados
+
+Bolinha toda preta - Início
+Bolinha com outra dentro - Fim
+
+quadrado = Representa um estagio (informação)
+lozango = Condição (2 caminhos)
+setas = ligam uma coisa na outra eventos (processo) DFD_process<nome do proceso do dfd>
