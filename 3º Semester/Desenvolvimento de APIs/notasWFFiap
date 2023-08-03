@@ -1,0 +1,14 @@
+WF Aprovação básica do Documento Fiscal
+
+Ele atua dentro de decumento fiscal
+
+INICIATION:
+primeiro: ele seta o usuário que criou no campo "User"
+segundo: ele seta no campo "Order status" = "Aprovação de supervisor pendente"
+
+PENDING APPROVAL:
+primeiro: ele coloca o aprovador, pegando o o supervisor do usuário
+segundo: ele coloca a data atual do sistema e uma string "Pending Approval..." no campo "memo";
+terceiro: ele manda um e-mail ao aprovador do documento fiscal avisando que tem aprovação pendente
+CARGA REGISTRO/ CARREGAR ANTES:
+bloqueia registro

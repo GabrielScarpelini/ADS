@@ -1,0 +1,9 @@
+site do SQL sqliteonline.com
+
+a primary key no sqlite, ela é auto incremental no sqlite
+
+o fetchall pega todas as linhas 
+o fetchone pega uma linha usado para chaves primarias
+o fetchmany pega por lotes fetchmany(20) retornará 20 linhas por vez 
+
+CRUD = Create Read Update Delete

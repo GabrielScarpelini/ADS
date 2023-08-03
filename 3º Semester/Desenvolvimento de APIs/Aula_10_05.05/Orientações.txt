@@ -1,0 +1,15 @@
+
+A instalação do SQLAlchemy é muito simples, basta executar 
+no terminal integrado do VSCode (ou no CMD do windows):
+pip install --user sqlalchemy 
+
+
+O sqlite é um sistema de bancos de dados relacionais muito simplificado. 
+Guarda todas as informações do banco de dados em um único arquivo, e não precisa 
+de nenhuma configuração adicional.
+www.sqliteonline.com/
+
+
+Conteúdo da Disciplina EAD
+https://sites.google.com/faculdadeimpacta.com.br/ads-dam-2022-1/unidade-01/parte-02
+https://sites.google.com/faculdadeimpacta.com.br/ads-dam-2022-1/unidade-01/parte-03

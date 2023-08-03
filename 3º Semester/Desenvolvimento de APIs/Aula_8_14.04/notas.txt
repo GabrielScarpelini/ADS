@@ -1,0 +1,13 @@
+padrão MVC
+
+Model View Controller respostas mais rápidas e dinâmicas
+
+view = visual, o que o user enxerga, parte visual, interação de user 
+model = camada de manipulação de dados
+controller = é a integração das duas acima
+
+Terá mais arquivos = segurança, eficiência, organização, tempo e transformação
+
+dividido em 3 arquivos, como podemos reparar na pasta do mvc 
+
+servidor e controller pode estar no mesmo arquivo 

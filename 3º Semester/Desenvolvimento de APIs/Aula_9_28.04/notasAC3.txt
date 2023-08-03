@@ -1,0 +1,5 @@
+num dicionário, o que conta é a chave e não a ordem em que aparece
+
+só em POST e PUT que usa o corpo da requisição
+
+isso no postman body > raw > (lá do lado) JSON e assim estará feito o corpo da requisição
