@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Área logada</title>
+</head>
+<body>
+    <div><a href="/logout">Sair</a> |<a href="/notas"> Notas</a> </div>
+    <h1>Bem vindo a área logada {{ aluno.nome }}</h1>
+    <p>Seu curso é {{ aluno.curso }}</p>
+    <p>Data de início {{ aluno.data_inicio }}</p>
+    <p>Suas notas são</p>
+    <ul>
+        {% for nota in aluno.notas %}
+        <li>{{ nota }}</li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>

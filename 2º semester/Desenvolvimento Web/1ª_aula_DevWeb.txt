@@ -1,0 +1,9 @@
+DNS faz a conversão do URL para o IP     DNS => domain name sistem
+
+http = protocolo alto nível 
+UDP protocolo de baixo nível 
+TCP protocolo a mais
+
+servidor de http é um software de servidor    
+
+URL uniform resource locator 

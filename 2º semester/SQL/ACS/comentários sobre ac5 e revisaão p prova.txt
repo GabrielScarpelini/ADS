@@ -1,0 +1,54 @@
+exercicio 1 
+
+full join com where null or null não considera a interseção 
+
+
+exercicio 2 
+não pode colocar o ID da coluna em qual vc vai fazer o insert
+
+ex insert into tb_secao values ('alarmes', 1) >> não precisa colocar número antes de alarme
+o um é o cod depto (se ele for nulo pode ser nada)
+
+ow insert into nm_tabala (nome , noma da tb) values ('alarmes', 1)
+
+ex 3 
+
+ex 4 
+
+comparar as linhas das tabelas chamadas
+o alias não funciona o group by pay attention
+
+ex 5 
+
+delete pode ir sem from ow com from 
+
+não pode colocar o * dentro do select!!!
+
+sintaxe correta 
+delete from tb_aluno where id_aluno not in (select id_aluno from tb_matricula) 
+
+ex 6 
+
+ex 7
+
+a sintaxe certa para alterar a tabela é 
+
+alter table tab_a alter column col_a varchar(100) not null 
+altera a coluna A varchar de 100 e deixa ela not null 
+
+ex 8 
+
+pegar no minimo todos os registro de uma das tabela 
+
+full join, left join e right join 
+
+
+
+ 
+
+
+
+
+ 
+
+

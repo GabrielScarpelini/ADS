@@ -1,0 +1,3 @@
+sql server: versão developer 
+sever cloud 
+Baixar o Management Studio 

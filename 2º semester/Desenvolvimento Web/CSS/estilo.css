@@ -1,0 +1,66 @@
+/*pode ter css externo, interno e in line sendo do 
+do in line o mais prioritário e o externo menos */
+
+/* seletor serve para definir um bloco de stylos para determinadas
+   coisas, se for mais de uma coisa usar o ponto e virgula(:)*/
+/* classe, uma classe pode ter vários elementos dentro dele*/
+
+h1{
+    color:blue
+}
+
+#titulo_principal {         /*só valido pro H1 o id aqui*/
+    text-align:center;
+    color: brown;
+}
+
+.div1{
+    width: 200px;
+    height: 150px;
+    display: inline;
+    background-color: yellow;
+    border: 5px solid blue;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.div2{
+    width: 200px;
+    height: 150px;
+    display: inline;
+    background-color:cyan;
+    border: 20px solid blue;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1,h2,h3,h4,h5,p {
+    /*atribui pra esse grupo a algum estilo*/
+}
+
+nav{  /*nav muda a tudo que tiver dentro dele*/
+    color: yellow;
+}
+nav#nav_principal{
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;     /* font family add a fonte, obs se usar
+                                            alguma diferente ela não funciona se o user não a possuir*/                                     
+    color: blue;   
+}
+
+nav#st{
+    color: orangered;
+
+}
+a:visited{
+    color: aqua;           /*link visitado que muda de cor*/
+    text-decoration: none;
+}
+P#i3{
+    
+}

@@ -1,0 +1,13 @@
+MÉDICO(Ccrm, salário, nome, CEnome) 
+
+PACIENTE(Ccpf, nome, rg, data de nasc, endereço, CEnºquarto, CEcrm, horário)
+
+QUARTO(CNº quarto, andar)
+
+ESPECIALIDADE(Cnome)
+
+TRATA(CEcrm, CEcpf)
+
+TEM(CEcrm, CEnome)
+
+TELEFONE_P(CEcpf, CPnúmero)

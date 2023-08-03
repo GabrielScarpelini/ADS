@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    background-color: #eeeeee;
+    color: #6f6f6f; 
+}    
+
+header {
+    color: #6f6f6f;
+    background-color: white;
+    height: 80px;
+    margin: 0px;
+    padding-right: 1rem;
+    display: flex;           /*fez com que os links mudassem de posição*/
+    justify-content: space-between;
+    align-items: center;    /* fez ser alinhado na vertical*/
+    
+    
+}
+
+main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+
+footer{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    padding: 5px;
+}
+
+
+h1 {
+    background-color: #ff4020;
+    color: white;
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+nav a{
+    color: #6f6f6f;
+    background-color: #ededed;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid #bbbbbb;                  /* tranforma os links em "botoes"*/
+    font-family: Arial, Helvetica, sans-serif;    /* muda a fonte*/
+    font-weight: bold;                            /* deixa a fonte em negrio*/
+    padding: 5px;                                 /* espaço entre o conteúdo da tag e a borda*/  
+    margin: 1px;                                  /* espaço entre a borda de um elemento até a borda do outro elemento*/
+}
+
+a:hover{                            /* aqui está mudando quando passa o mouse em cima do link */
+    color: #ff4020;
+    text-decoration: underline;    /* atribuindo sublinhado*/
+}
+
+a:active{                           /* atribuindo mudanças quando clica no link */
+    color: blue;
+    text-decoration: underline;
+}
+
+.titulo-article {
+    color: royalblue;
+}
+
+#link-email{
+    color: blue;
+    text-decoration: none;
+}
+
+#link-email:hover{
+    color: #ff4020;
+    text-decoration: underline;
+}

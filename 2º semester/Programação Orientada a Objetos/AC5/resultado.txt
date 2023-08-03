@@ -1,0 +1,450 @@
+1;Io, Leonardo;90;2019;Jesus Garces Lambert;Italy;54.0
+2;Limbo;90;2019;Mark Young;USA;49.0
+3;StarDog and TurboCat;90;2019;Ben Smith;UK;70.0
+4;Investigation 13;90;2019;Krisstian de Lara;USA;40.0
+5;Obsession;90;2019;Goran Dukic;USA;49.0
+6;Chiamate un dottore!;90;2019;Tristan SÃ©guÃ©la;France;65.0
+7;Beneath the Leaves;90;2019;Adam Marino;USA;45.0
+8;Am I a Serial Killer?;90;2019;Penelope Buitenhuis;USA;50.0
+9;Lola vers la mer;90;2019;Laurent Micheli;Belgium, France;65.0
+10;The Last Porno Show;90;2019;Kire Paputts;Canada;64.0
+11;Lynn + Lucy;90;2019;Fyzal Boulifa;UK;67.0
+12;Zayana;90;2019;Khalid Abdulrahim Al-Zadjali;Oman, India;70.0
+13;La Banda;90;2019;Roberto Bueso;Spain;57.0
+14;La signora di Purity Falls;90;2019;Sam Irvin;USA;47.0
+15;My Soul to Keep;90;2019;Ajmal Zaheer Ahmad;USA;50.0
+16;Danur 3: Sunyaruri;90;2019;Awi Suryadi;Indonesia;47.0
+17;Professor Shanku O El Dorado;90;2019;Sandip Ray;India;52.0
+18;Cyber Bride;90;2019;Louisa Warren;UK;23.0
+19;L'ultima ora;90;2019;James Helsing;USA;36.0
+20;Driven;90;2019;Glenn Payne;USA;63.0
+21;Tuttapposto;90;2019;Gianni Costantino;Italy;63.0
+22;Inside the Rain;90;2019;Aaron Fisher;USA;45.0
+23;The Short History of the Long Road;90;2019;Ani Simon-Kennedy;USA;64.0
+24;Dead Fred;90;2019;Deanna Dewey;UK;39.0
+25;Fulci for fake;90;2019;Simone Scafidi;UK, Italy;63.0
+26;The Wedding Year;90;2019;Robert Luketic;USA;55.0
+27;Surviving Confession;90;2019;Matthew Tibbenham;USA;54.0
+28;Hole - L'abisso;90;2019;Lee Cronin;Ireland, UK, Belgium, Finland;57.0
+29;Nabat;90;2019;Pegah Arzi;Iran;52.0
+30;Chhappad Phaad Ke;90;2019;Sameer Joshi;India;63.0
+31;Small Town Hero;90;2019;Darren Bolton;UK;40.0
+32;Clementine;90;2019;Lara Gallagher;USA;51.0
+33;The Silence;90;2019;John R. Leonetti;Canada, Germany;53.0
+34;The Trap;90;2019;Erik White;USA;43.0
+35;Inherit the Viper;90;2019;Anthony Jerjen;USA;51.0
+36;The Wave;90;2019;Gille Klabin;USA;60.0
+37;In Full Bloom - I fiori della rabbia;90;2019;Reza Ghassemi, Adam VillaSenor;Japan, USA;68.0
+38;Hutsulka Ksenya;90;2019;Alena Demyanenko;Ukraine;72.0
+39;Breaking Barbi;90;2019;Edward G. Negron;USA;51.0
+40;Kapsalon Romy;90;2019;Mischa Kamp;Netherlands, Germany;72.0
+41;FOMO: Fear of Missing Out;90;2019;Attila Hartung;Hungary;70.0
+42;Vaioretto evÃ¢gÃ¢den gaiden: Eien to jidou shuki ningyou;90;2019;Haruka Fujita, Taichi Ishidate;Japan;74.0
+43;Storozh;90;2019;Yuriy Bykov;Russia;64.0
+44;Devushki byvayut raznye;90;2019;Sarik Andreasyan;Russia;23.0
+45;Gamak Ghar;91;2019;Achal Mishra;India;81.0
+46;Volition;91;2019;Tony Dean Smith;Canada;56.0
+47;Mermaid Down;91;2019;Jeffrey Grellman;USA, UK;59.0
+48;We Summon the Darkness;91;2019;Marc Meyers;UK, USA, Canada;51.0
+49;Death Whisper;91;2019;Awi Suryadi;Indonesia, South Korea;64.0
+50;Space Ninjas;91;2019;Scott McQuaid;UK;37.0
+51;Standing Up, Falling Down;91;2019;Matt Ratner;USA;64.0
+52;Use Me;91;2019;Julian Shaw;USA;41.0
+53;Round of Your Life;91;2019;Dylan Thomas Ellis;USA;43.0
+54;Schemers;91;2019;Dave Mclean;UK;58.0
+55;Los JapÃ³n;91;2019;Ãlvaro DÃ­az Lorenzo;Spain;36.0
+56;Buttiamo giÃ¹ l'uomo;91;2019;Bridget Savage Cole, Danielle Krudy;USA;64.0
+57;The Mercenary;91;2019;Jesse V. Johnson;USA;54.0
+58;O Filme do Bruno Aleixo;91;2019;JoÃ£o Moreira, Pedro Santo;Portugal;72.0
+59;Realna prica;91;2019;Gordan Kicic;Serbia;72.0
+60;Good Posture;91;2019;Dolly Wells;USA;54.0
+61;Big Time Adolescence;91;2019;Jason Orley;USA;70.0
+62;Burning Kentucky;91;2019;Bethany Brooke Anderson;USA;44.0
+63;Hume Tumse Pyaar Kitna;91;2019;Lalit Mohan;India;48.0
+64;The Final Scream;91;2019;Scott Jeffrey;UK;57.0
+65;Mollywood;91;2019;Morocco Vaughn;USA;25.0
+66;Get Gone;91;2019;Michael Thomas Daniel;USA;27.0
+67;Benjamin BlÃ¼mchen;91;2019;Tim Trachte;Germany;36.0
+68;Red Handed;91;2019;Frank Peluso;USA;33.0
+69;To Your Last Death;91;2019;Jason Axinn;USA;73.0
+70;Kill Chain;91;2019;Ken Sanzel;USA;50.0
+71;Denmark;91;2019;Adrian Shergold;UK;60.0
+72;Gates of Darkness;91;2019;Don E. FauntLeRoy;USA, France, Nepal;42.0
+73;Take Me Somewhere Nice;91;2019;Ena Sendijarevic;Netherlands, Bosnia and Herzegovina;64.0
+74;Zahr-e Mar;91;2019;Javad Razavian;Iran;41.0
+75;L'immensitÃ  della notte;91;2019;Andrew Patterson;USA;67.0
+76;Guadalupe Reyes;91;2019;Salvador Espinosa;Mexico;59.0
+77;Alive;91;2019;Rob Grant;Canada;53.0
+78;C'era una volta Steve McQueen;91;2019;Mark Steven Johnson;USA;62.0
+79;Mrs Lowry & Son;91;2019;Adrian Noble;UK;67.0
+80;Wo de qing chun dou shi ni;91;2019;Mengying Dai, Tong Zhou;China;63.0
+81;Dead Don't Die in Dallas;91;2019;Israel Luna;USA;44.0
+82;One Man Dies a Million Times;92;2019;Jessica Oreck;USA;63.0
+83;HÃ©raÃ°iÃ°;92;2019;GrÃ­mur HÃ¡konarson;Iceland, Denmark, Germany, France;66.0
+84;Zizotek;92;2019;Vardis Marinakis;Greece;62.0
+85;Please Come with Me;92;2019;Michael Ciulla;USA;46.0
+86;Scarpette rosse e i 7 nani;92;2019;Sung-ho Hong, Moo-Hyun Jang;South Korea;63.0
+87;Rendez-vous chez les Malawas;92;2019;James Huth;France, Belgium;39.0
+88;Shadows in Mind;92;2019;Mark Schwab;USA;53.0
+89;Taxi a Gibraltar;92;2019;Alejo Flah;Spain, Argentina;45.0
+90;Love for Sale 2;92;2019;Andibachtiar Yusuf;Indonesia;69.0
+91;The Harvesting;92;2019;Ivan Kraljevic;USA;37.0
+92;Automation;92;2019;Garo Setian;USA;45.0
+93;Nuclear;92;2019;Catherine Linstrum;UK;50.0
+94;Twelve;92;2019;Steve Grimaldi;USA;61.0
+95;Ga woo man si ging;92;2019;Herman Yau;Hong Kong;60.0
+96;All Inclusive;92;2019;Fabien Onteniente;France, Belgium;31.0
+97;Someone Great;92;2019;Jennifer Kaytin Robinson;USA;62.0
+98;Noura RÃªve;92;2019;Hinde Boujemaa;Tunisia, Belgium, France, Qatar, Netherlands;65.0
+99;Black Christmas;92;2019;Sophia Takal;USA, New Zealand;32.0
+100;Cat in the Wall;92;2019;Vesela Kazakova, Mina Mileva;Bulgaria, UK, France;55.0
+101;Let It Snow - Innamorarsi sotto la neve;92;2019;Luke Snellin;USA;58.0
+102;We Die Young;92;2019;Lior Geller;Bulgaria, USA;53.0
+103;Hemelrijken;92;2019;Stanley Kolk;Netherlands;63.0
+104;Arctic - Un'avventura glaciale;92;2019;Aaron Woodley;India, UK, China, Canada, Japan, South Korea, USA;46.0
+105;El Hijo;92;2019;SebastiÃ¡n Schindel;Argentina;54.0
+106;En komikers uppvÃ¤xt;92;2019;Rojda SekersÃ¶z;Sweden;66.0
+107;Wake Up - Il risveglio;92;2019;Aleksandr Chernyaev;USA;50.0
+108;Kat and the Band;92;2019;E.E. Hegarty;UK;57.0
+109;Haunt;92;2019;Scott Beck, Bryan Woods;USA;63.0
+110;Ghost in the Graveyard;92;2019;Charlie Comparetto;USA;49.0
+111;Ordinary Love;92;2019;Lisa Barros D'Sa, Glenn Leyburn;UK;66.0
+112;Eerie Fairy Tales;92;2019;Mart Sander;Estonia;69.0
+113;L'extraordinaire voyage de Marona;92;2019;Anca Damian;France, Romania, Belgium;76.0
+114;O PoÃ§o;92;2019;AndrÃ© Borelli;Brazil;68.0
+115;Unheimlich perfekte Freunde;92;2019;Marcus H. RosenmÃ¼ller;Germany;64.0
+116;The House of Us;92;2019;Ga-eun Yoon;South Korea;73.0
+117;Persona non grata;92;2019;Roschdy Zem;France;50.0
+118;JagtsÃ¦son;92;2019;Tilde Harkamp;Denmark;52.0
+119;Escape and Evasion;92;2019;Storm Ashwood;Australia, United Arab Emirates;44.0
+120;Natale, folle Natale;92;2019;Leslie Small;USA;48.0
+121;Howlers;92;2019;Josh Ridgway;USA;48.0
+122;Already Gone;92;2019;Christopher Kenneally;USA;40.0
+123;Horrible Histories: The Movie - Rotten Romans;92;2019;Dominic Brigstocke;UK;52.0
+124;Dreamland;92;2019;Bruce McDonald;Canada, Luxembourg, Belgium;47.0
+125;My Prince Edward;92;2019;Norris Wong;Hong Kong;69.0
+126;Suk Suk;92;2019;Ray Yeung;Hong Kong;71.0
+127;The Prodigy - Il figlio del male;92;2019;Nicholas McCarthy;USA, Canada;58.0
+128;The Field;92;2019;Tate Bunker;USA;42.0
+129;Un giorno di pioggia a New York;92;2019;Woody Allen;USA;66.0
+130;Un cavaliere per Natale;92;2019;Monika Mitchell;USA;55.0
+131;What are the Odds?;92;2019;Megha Ramaswamy;India;53.0
+132;The Haunting of Borley Rectory;92;2019;Steven M. Smith;UK;32.0
+133;Un'improbabile amicizia;93;2019;Christopher Cantwell;Canada;56.0
+134;Cheshm O Goosh Baste;93;2019;Farzad Motamen;Iran;47.0
+135;Cetto c'Ã¨ senzadubbiamente;93;2019;Giulio Manfredonia;Italy;51.0
+136;Litigante;93;2019;Franco Lolli;Colombia, France;65.0
+137;Bombay Rose;93;2019;Gitanjali Rao;India, UK, France, Qatar;64.0
+138;Sarkoob;93;2019;Reza Goran;Iran;48.0
+139;Coyote Lake;93;2019;Sara Seligman;USA;52.0
+140;Mai visto;93;2019;Marina Seresesky;Spain;53.0
+141;Dark Sense;93;2019;Magnus Wake;UK;47.0
+142;Asimetrija;93;2019;Masa Neskovic;Serbia, Slovenia, Italy;50.0
+143;Stuber - Autista d'assalto;93;2019;Michael Dowse;USA;62.0
+144;In the Trap - Nella trappola;93;2019;Alessio Liguori;Italy;40.0
+145;Possession Diaries;93;2019;Juan Frausto;USA;19.0
+146;The Way We Weren't;93;2019;Rick Hays;USA, Switzerland;65.0
+147;Mister Link;93;2019;Chris Butler;Canada, USA;67.0
+148;El increÃ­ble finde menguante;93;2019;Jon Mikel Caballero;Spain;62.0
+149;Lupin III: The First;93;2019;Takashi Yamazaki;Japan;70.0
+150;The Glorious Seven;93;2019;Harald Franklin;Germany;27.0
+151;Assimilate;93;2019;John Murlowski;USA;53.0
+152;Safe Spaces;93;2019;Daniel Schechter;USA;57.0
+153;The Divorce Party;93;2019;Hughes William Thompson;USA;51.0
+154;Iron Sky - La battaglia continua;93;2019;Timo Vuorensola;Finland, Germany, Belgium;50.0
+155;A Son of Man;93;2019;Jamaicanoproblem, Pablo AgÃ¼ero;Ecuador;59.0
+156;La Llorona - Le lacrime del male;93;2019;Michael Chaves;USA;53.0
+157;Little Monsters;93;2019;Abe Forsythe;Australia, USA, UK;63.0
+158;Tales from the Lodge;93;2019;Abigail Blackmore;UK;50.0
+159;Let There Be Light;93;2019;Marko Skop;Slovakia, Czech Republic;67.0
+160;Depth of Pyaar;93;2019;Mukesh Asopa, Charles Ross;Canada;70.0
+161;HollywoodtÃ¼rke;93;2019;Murat Ãœnal;Germany;58.0
+162;Blood Vessel;93;2019;Justin Dix;Australia;52.0
+163;Cui mian cai jue;93;2019;Siu Kwan Lai, Wing Tai Lau;Hong Kong, China;59.0
+164;International Falls;93;2019;Amber McGinnis;USA;54.0
+165;Run with the Hunted;93;2019;John Swab;USA;75.0
+166;Daffodils;93;2019;David Stubbs;New Zealand;57.0
+167;Paradise Beach;93;2019;Xavier Durringer;France;44.0
+168;Buoyancy;93;2019;Rodd Rathjen;Australia;74.0
+169;Happy Times;93;2019;Michael Mayer;Israel, USA, Italy;59.0
+170;Psi umiru sami;93;2019;Nikola Petrovic;Serbia;50.0
+171;Red Devil;93;2019;Savvas D. Michael;UK;60.0
+172;Attenti a quelle due;93;2019;Chris Addison;USA;54.0
+173;One Remains;93;2019;Josh Hodgins;USA;29.0
+174;Liang zhi lao hu;93;2019;Fei Li;China;57.0
+175;By Light of Desert Night;94;2019;David Stuart Snell;USA;54.0
+176;Jahan, Ba Man Beraghs;94;2019;Sorush Sehhat;Iran;66.0
+177;The Nightmare Gallery;94;2019;Gene Blalock;USA;38.0
+178;Dance Night Obsession;94;2019;Harvey Lowry;USA;39.0
+179;American Bistro;94;2019;Arthur Diennet;USA;64.0
+180;Eide Asli;94;2019;Azita Moguie;Iran;53.0
+181;Itsy Bitsy;94;2019;Micah Gallo;USA;49.0
+182;El despertar de las hormigas;94;2019;Antonella Sudasassi, Antonella Sudasassi;Costa Rica, Spain;66.0
+183;Balboa Blvd;94;2019;Kylie Claude, Rody Claude;Australia;66.0
+184;El proyeccionista;94;2019;JosÃ© MarÃ­a Cabral;Dominican Republic;69.0
+185;Moj jutarnji smeh;94;2019;Marko Djordjevic;Serbia;72.0
+186;Port Authority;94;2019;Danielle Lessovitz;USA, France;65.0
+187;Hala;94;2019;Minhal Baig;USA;58.0
+188;Swallow;94;2019;Carlo Mirabella-Davis;USA, France;64.0
+189;Sharon Tate - Tra incubo e realtÃ ;94;2019;Daniel Farrands;USA, Mexico;28.0
+190;Snu;94;2019;PatrÃ­cia Sequeira;Portugal;66.0
+191;Il buco;94;2019;Galder Gaztelu-Urrutia;Spain;70.0
+192;James vs. His Future Self;94;2019;Jeremy LaLonde;Canada;59.0
+193;Disco;94;2019;Jorunn Myklebust Syversen;Norway;54.0
+194;Un PapÃ¡ Pirata;94;2019;Humberto Hinojosa Ozcariz;Mexico;45.0
+195;Just a Gigolo;94;2019;Olivier Baroux;France;54.0
+196;Blood Craft;94;2019;James Cullen Bressack;USA;35.0
+197;Extra Ordinary;94;2019;Mike Ahern, Enda Loughman;Ireland, Belgium, Finland, UK;64.0
+198;Dedicada a mi Ex;94;2019;Jorge Ulloa;Colombia, Ecuador;75.0
+199;Equipaggio zero;94;2019;Bert, Bertie;USA;69.0
+200;Bennett's War;94;2019;Alex Ranarivelo;USA;57.0
+201;Loon Lake;94;2019;Ansel Faraj;USA;49.0
+202;Chen mo de zheng ren;94;2019;Renny Harlin;China, Hong Kong;56.0
+203;Close;94;2019;Vicky Jewson;UK, USA;57.0
+204;Zagrebacki Ekvinocij;94;2019;Svebor Mihael Jelic;Croatia;81.0
+205;TrÃªs VerÃµes;94;2019;Sandra Kogut;Brazil;60.0
+206;The Cleansing Hour;94;2019;Damien LeVeck;USA;57.0
+207;True Fiction;94;2019;Braden Croft;Canada;48.0
+208;Submission;94;2019;J.M. Berrios;USA;51.0
+209;Honey Boy;94;2019;Alma Har'el;USA;73.0
+210;Dafne;94;2019;Federico Bondi;Italy;62.0
+211;Sestrenka;94;2019;Aleksandr Galibin;Russia;73.0
+212;Flay;94;2019;Eric Pham;USA;32.0
+213;Emmett;94;2019;Bridget Stokes;USA;48.0
+214;UP There;94;2019;Michael Blaustein, Daniel Weingarten;USA;49.0
+215;Among Thieves;95;2019;K.C. Schrimpl;USA;42.0
+216;Life Like;95;2019;Josh Janowicz;USA;54.0
+217;Cabaret;95;2019;Kaustav Narayan Niyogi;India;35.0
+218;Brave ragazze;95;2019;Michela Andreozzi;Italy;54.0
+219;Cruel Peter;95;2019;Christian Bisceglia, Ascanio Malgarini;Italy;50.0
+220;Go Back to China;95;2019;Emily Ting;China, USA;59.0
+221;Wounds;95;2019;Babak Anvari;USA, UK;40.0
+222;Ring of Silence;95;2019;Nicole Bowers Wallace;USA;86.0
+223;Eternal Beauty;95;2019;Craig Roberts;UK;63.0
+224;Solteras;95;2019;Luis Javier Henaine;Mexico;59.0
+225;Chicuarotes;95;2019;Gael GarcÃ­a Bernal;Mexico;67.0
+226;The Tracker;95;2019;Giorgio Serafini;Italy, USA;34.0
+227;Termination;95;2019;Alice Nicolini;USA;26.0
+228;Burning Men;95;2019;Jeremy Wooding;UK;42.0
+229;Paradise Hills;95;2019;Alice Waddington;Spain, USA;56.0
+230;In Paradox;95;2019;Hamad AlSarraf;Kuwait;53.0
+231;Exit 0;95;2019;E.B. Hughes;USA;65.0
+232;Panama Papers;95;2019;Steven Soderbergh;USA;63.0
+233;Dino King 3D: Journey to Fire Mountain;95;2019;Han Sang-Ho;South Korea, China;48.0
+234;Sea Fever;95;2019;Neasa Hardiman;Ireland, USA, UK, Sweden, Belgium;57.0
+235;Automata;95;2019;Lawrie Brewster;UK;43.0
+236;Deep Murder;95;2019;Nick Corirossi;USA;42.0
+237;Greener Grass;95;2019;Jocelyn DeBoer, Dawn Luebbe;USA;63.0
+238;The Deeper You Dig;95;2019;John Adams, Toby Poser;USA;51.0
+239;The Wretched;95;2019;Brett Pierce, Drew T. Pierce;USA;58.0
+240;The Dustwalker;95;2019;Sandra Sciberras;Australia, United Arab Emirates;38.0
+241;Saving ZoÃ« - Alla ricerca della veritÃ ;95;2019;Jeffrey G. Hunt;USA;53.0
+242;Drakulics elvtÃ¡rs;95;2019;MÃ¡rk BodzsÃ¡r;Hungary;67.0
+243;PrÃ©lude;95;2019;Sabrina Sarabi;Germany;60.0
+244;Solum;95;2019;Diogo Morgado;Portugal;42.0
+245;Els dies que vindran;95;2019;Carlos Marques-Marcet;Spain;69.0
+246;Clown Motel: Spirits Arise;95;2019;Joseph Kelly;USA;52.0
+247;Beach Bum - Una vita in fumo;95;2019;Harmony Korine;Switzerland, UK, France, USA;55.0
+248;The Luring;95;2019;Christopher Wells;USA;31.0
+249;The Infiltrators;95;2019;Cristina Ibarra, Alex Rivera;USA;58.0
+250;Kiss Kiss;95;2019;Dallas King;USA;25.0
+251;Adam;95;2019;Rhys Ernst;USA;35.0
+252;La mala noche;95;2019;Gabriela Calvache;Ecuador, Mexico;58.0
+253;Davay razvedyomsya!;95;2019;Anna Parmas;Russia;53.0
+254;Badnaam Gali;95;2019;Ashwin Shetty;India;70.0
+798;Juanita;90;2019;Clark Johnson;USA;59.0
+799;Flashout;90;2019;Richard Lerner;USA;48.0
+800;Gully;90;2019;Nabil Elderkin;USA;28.0
+801;MamÃ¡ se fue de viaje;90;2019;Fernando SariÃ±ana;Mexico;44.0
+802;Parwareshghah;90;2019;Shahrbanoo Sadat;Denmark, Luxembourg, France, Germany, Afghanistan;66.0
+803;Art of Deception;90;2019;Richard Ryan;USA;35.0
+804;Winter Song;90;2019;Camille Brown;USA;66.0
+805;Seveled;90;2019;DÃ©nes Orosz;Hungary;62.0
+806;Santa Girl;90;2019;Blayne Weaver;USA;51.0
+807;Binti;90;2019;Frederike Migom;Belgium;65.0
+808;Malvagi;90;2019;Dan Berk, Robert Olsen;USA;62.0
+809;Loners;90;2019;Eryc Tramonn;USA;58.0
+810;Black Garden;90;2019;Shaun Wilson;Australia;52.0
+811;Nighthawks;90;2019;Grant S. Johnson;USA;37.0
+812;Skin in the Game;90;2019;Adisa;USA;43.0
+813;Le milieu de l'horizon;90;2019;Delphine Lehericey;Switzerland, Belgium;68.0
+814;A Daughter's Plan To Kill;90;2019;Ian Niles;USA;47.0
+815;Maria;90;2019;Pedring Lopez;Philippines;50.0
+816;The 20th Century;90;2019;Matthew Rankin;Canada;69.0
+817;Qui m'aime me suive!;90;2019;JosÃ© Alcala;France;51.0
+818;Robo;90;2019;Sarik Andreasyan;Russia;51.0
+819;The Manson Family Massacre;90;2019;Andrew Jones;UK, USA;32.0
+820;The Dawn;90;2019;Brandon Slagle;USA;46.0
+821;Bit;90;2019;Brad Michael Elmore;USA;38.0
+822;Poms;90;2019;Zara Hayes;UK, USA, Canada;59.0
+823;A Beauty & The Beast Christmas;90;2019;Dylan Vox;USA;51.0
+824;Tvar;90;2019;Olga Gorodetskaya;Russia;41.0
+825;L'angelo del male - Brightburn;90;2019;David Yarovesky;USA;61.0
+826;Countdown;90;2019;Justin Dec;USA;54.0
+827;Hollywould;90;2019;Joshua Coates;USA;36.0
+828;Christmas on the Range;90;2019;Gary Wheeler;USA;59.0
+829;L'agenzia dei bugiardi;90;2019;Volfango De Biasi;Italy;56.0
+830;Jusqu'ici tout va bien;90;2019;Mohamed Hamidi;France, Belgium;58.0
+831;Il dottore vi ucciderÃ  subito;90;2019;Rob Pallatina;USA;40.0
+832;Project Gio;90;2019;Bas van Teylingen;Netherlands;19.0
+833;Symphony No. 9;90;2019;Mohamad Reza Honarmand;Iran;54.0
+834;Witches in the Woods;90;2019;Jordan Barker;Canada;41.0
+835;Supervized;90;2019;Steve Barron;Ireland, UK;49.0
+836;Fragmentary;90;2019;Jace Pickard;Australia, United Arab Emirates, UK;43.0
+837;Good Boys - Quei cattivi ragazzi;90;2019;Gene Stupnitsky;USA;67.0
+838;Killer di matrimoni;90;2019;Bernard Salzmann;USA;28.0
+839;Pats Sau Milijonierius;90;2019;Tadas Vidmantas;Lithuania;64.0
+840;Zuo jia de huang yan: Bi zhong you zui;90;2019;Christopher Sun;Hong Kong;57.0
+841;Where We Go from Here;90;2019;Anthony Meindl;USA;47.0
+842;Manou the Swift;90;2019;Andrea Block, Christian Haas;Germany;54.0
+843;The Baylock Residence;90;2019;Anthony M. Winson;UK;37.0
+844;Elcano y Magallanes. La primera vuelta al mundo;90;2019;Ãngel Alonso;Spain;41.0
+845;Epidemiya. Vongozero;90;2019;Pavel Kostomarov;Russia;63.0
+846;Once in Trubchevsk;90;2019;Larisa Sadilova;Russia;57.0
+847;Animal Among Us;90;2019;John Woodruff;USA;32.0
+848;Mais vous Ãªtes fous;95;2019;Audrey Diwan;France;65.0
+849;Fighter;95;2019;Konrad Maximilian;Poland;36.0
+850;Sabea El Boromba;95;2019;Mahmoud Karim;Egypt;57.0
+851;Si Doel the Movie 2;95;2019;Rano Karno;Indonesia;70.0
+852;Made in Bangladesh;95;2019;Rubaiyat Hossain;France, Bangladesh, Denmark, Portugal;71.0
+853;The Revenger: An Unromantic Comedy;95;2019;Mark Murphy;UK;56.0
+854;Exorcism at 60,000 Feet;95;2019;Chad Ferrin;USA;41.0
+855;La fille au bracelet;95;2019;StÃ©phane Demoustier;France, Belgium;68.0
+856;The 9th Precinct;95;2019;Ding-Lin Wang;Taiwan;55.0
+857;FinchÃ© morte non ci separi;95;2019;Matt Bettinelli-Olpin, Tyler Gillett;USA, Canada;68.0
+858;Bik Eneich: Un fils;95;2019;Mehdi Barsaoui;Tunisia, France, Lebanon, Qatar;70.0
+859;Cuddle Weather;95;2019;Rod Marmol;Philippines;62.0
+860;Palm Swings;95;2019;Sean Hoessli;USA;45.0
+861;Shadow Wolves;95;2019;McKay Daines;USA, UK;37.0
+862;Makmum;95;2019;Hadrah Daeng Ratu;Indonesia;43.0
+863;Killers Anonymous;95;2019;Martin Owen;UK;51.0
+864;Steam Room Stories: The Movie!;95;2019;J.C. Calciano;USA;42.0
+865;Mossad;95;2019;Alon Gur Arye;Israel;67.0
+866;City Hunter: Private Eyes;95;2019;Kenji Kodama;Japan;65.0
+867;Nova Lituania;96;2019;Karolis Kaupinis;Lithuania;73.0
+868;Miga Miga Avasaram;96;2019;Suresh Kamatchi;India;72.0
+869;Un viaggio a quattro zampe;96;2019;Charles Martin Smith;China, USA;67.0
+870;Hoax;96;2019;Matt Allen;USA;39.0
+871;Among the Shadows - Tra le ombre;96;2019;Tiago Mesquita;USA;21.0
+872;Blood Bound;96;2019;Richard LeMay;USA;42.0
+873;A Certain Kind of Silence;96;2019;Michal Hogenauer;Czech Republic, Netherlands, Latvia;61.0
+874;El Hubiera SÃ­ Existe;96;2019;Luis Eduardo Reyes;Mexico;58.0
+875;Brotherhood;96;2019;Richard Bell;Canada;48.0
+876;Zeroville;96;2019;James Franco;USA;45.0
+877;Klaus: I segreti del Natale;96;2019;Sergio Pablos, Carlos MartÃ­nez LÃ³pez;Spain, UK;82.0
+878;End of Sentence;96;2019;Elfar Adalsteins;Iceland, Ireland;72.0
+879;El PrÃ­ncipe;96;2019;SebastiÃ¡n MuÃ±oz;Chile, Argentina, Belgium;64.0
+880;Crucible of the Vampire;96;2019;Iain Ross-McNamee;UK;35.0
+881;Vita nella Banlieu;96;2019;Kery James, LeÃ¯la Sy;France;64.0
+882;Susi Susanti: Love All;96;2019;Sim F.;Indonesia;75.0
+883;Mosley;96;2019;Kirby Atkins;New Zealand, China;64.0
+884;Io;96;2019;Jonathan Helpert;USA;47.0
+885;Trolls World Tour;90;2020;Walt Dohrn, David P. Smith;USA;61.0
+886;The Hunt;90;2020;Craig Zobel;USA;65.0
+887;Survive the Night;90;2020;Matt Eskandari;USA;49.0
+888;Tolo Tolo;90;2020;Checco Zalone;Italy;60.0
+889;Shukranu;90;2020;Bishnu Dev Halder;India;64.0
+890;Talita;90;2020;Elena Beuca;USA, Romania;77.0
+891;El PrÃ³fugo;90;2020;Natalia Meta;Argentina, Mexico;52.0
+892;Sex and the Future;90;2020;Luis Carlos Hueck, Ethan Zvi Kaplan;USA;19.0
+893;Tout simplement noir;90;2020;John Wax, Jean-Pascal Zadi;France;65.0
+894;The Great Silence;90;2020;Charlie Buhler;USA;40.0
+895;Tainted;90;2020;Brent Cote;Canada;47.0
+896;Simulation Theory Film;90;2020;Lance Drake;UK;74.0
+897;Lucky;90;2020;Olivier Van Hoofstadt;France;44.0
+898;The Insurrection;90;2020;Rene Perez;USA;29.0
+899;A Killer Next Door;90;2020;Andrew Jones;UK;31.0
+900;Undine - Un amore per sempre;90;2020;Christian Petzold;Germany, France;64.0
+901;Arthur & Merlin: Knights of Camelot;90;2020;Giles Alderson;UK;74.0
+902;Il giorno sbagliato;90;2020;Derrick Borte;USA;62.0
+903;Star Light;90;2020;Mitchell Altieri, Lee Cummings;USA;37.0
+904;Shooting Heroin;90;2020;Spencer T. Folmar;USA;66.0
+905;Aiyai: Wrathful Soul;90;2020;Ilanthirayan Alan Arumugam;Australia;89.0
+906;Street Survivors: The True Story of the Lynyrd Skynyrd Plane Crash;90;2020;Jared Cohn;USA;52.0
+907;Zola;90;2020;Janicza Bravo;USA;61.0
+908;The Night Clerk;90;2020;Michael Cristofer;USA;54.0
+909;Deported;90;2020;Tyler Spindel;USA;37.0
+910;La famiglia Willoughby;90;2020;Kris Pearn, Cory Evans;Canada, USA, UK;64.0
+911;Last Moment of Clarity;90;2020;Colin Krisel, James Krisel;USA;51.0
+912;Walk Away;91;2020;Jason Dean, Matthew Nash;USA;39.0
+913;Variant;91;2020;Tony Leech;USA;40.0
+914;Terrible jungle;91;2020;Hugo Benamozig, David Caviglioli;France;57.0
+915;American Wisper;91;2020;Russ Emanuel;USA;64.0
+916;Force of Nature;91;2020;Michael Polish;USA;44.0
+917;Murder Manual;91;2020;Michael Escobedo, Kelly Hallmark;USA;23.0
+918;Frieda: Coming Home;91;2020;Michael W. Driesch;Germany;56.0
+919;Rev;91;2020;Ant Horasanli;Canada;48.0
+920;Think Like a Dog;91;2020;Gil Junger;China, USA, UK;51.0
+921;Disturbing the Peace - Sotto assedio;91;2020;York Alec Shackleton;USA;32.0
+922;Nessuno sa che io sono qui;91;2020;Gaspar Antillo;Chile;65.0
+923;Roped;91;2020;Shaun Paul Piccinino;USA;52.0
+924;Bill & Ted Face the Music;91;2020;Dean Parisot;USA, Canada, Italy;64.0
+925;Sweet Thing;91;2020;Alexandre Rockwell;USA;80.0
+926;Killer Dream Home;91;2020;Jake Helgren;USA;47.0
+927;Axcellerator;91;2020;David Giancola;USA;51.0
+928;Filles de joie;91;2020;FrÃ©dÃ©ric Fonteyne, Anne Paulicevich;Belgium, France;63.0
+929;What the Night Can Do;91;2020;Christopher Martini;USA;44.0
+930;John Henry;91;2020;Will Forbes;USA;35.0
+931;Greyhound: il nemico invisibile;91;2020;Aaron Schneider;USA, Canada, China;70.0
+932;SpongeBob - Amici in fuga;91;2020;Tim Hill;South Korea, USA;64.0
+933;Proiettile vagante;92;2020;Guillaume Pierret;France;62.0
+934;All Together Now;92;2020;Brett Haley;USA;65.0
+935;Looks That Kill;92;2020;Kellen Moore;USA;64.0
+936;Dating Amber;92;2020;David Freyne;Ireland;70.0
+937;Darcy;92;2020;Jon Russell Cring, Heidi Philipsen;USA;43.0
+938;Mulan zhi Jinguo yinghao;92;2020;Yi Lin;China;46.0
+939;You're Not Alone;92;2020;Eduardo Rodriguez;USA;36.0
+940;TerÃ¤sleidit;92;2020;Pamela Tola;Finland;66.0
+941;Kartoffelsalat 3 - Das Musical;92;2020;Michael David Pate;Germany;66.0
+942;Koncentrisi se, baba;92;2020;Pjer Zalica;Bosnia and Herzegovina, Turkey;77.0
+943;Heavenquest: A Pilgrim's Progress;92;2020;Matt Bilen;USA;34.0
+944;Talve;92;2020;Ergo Kuld;Estonia;63.0
+945;Die KÃ¤nguru-Chroniken;92;2020;Dani Levy;Germany;54.0
+946;Siberia;92;2020;Abel Ferrara;Italy, Germany, Greece, Mexico;53.0
+947;The Swing of Things;93;2020;Matt Shapira;USA;29.0
+948;The Bay of Silence;93;2020;Paula van der Oest;UK;43.0
+949;Bhanumathi & Ramakrishna;93;2020;Srikanth Nagothi;India;71.0
+950;Le ragazze del Pandora's Box;93;2020;Thom Fitzgerald;Canada;60.0
+951;En helt almindelig familie;93;2020;Malou Reymann;Denmark;70.0
+952;Spree;93;2020;Eugene Kotlyarenko;USA;59.0
+953;Work It;93;2020;Laura Terruso;USA;61.0
+954;You Should Have Left;93;2020;David Koepp;USA, UK;53.0
+955;I nostri cuori chimici;93;2020;Richard Tanne;USA;63.0
+956;The Party Planner;93;2020;Jake Helgren;USA;47.0
+957;Becky;93;2020;Jonathan Milott, Cary Murnion;USA;57.0
+958;Nathan's Kingdom;93;2020;Olicer J. MuÃ±oz;USA;70.0
+959;The Silencing;93;2020;Robin Pront;Canada, USA;61.0
+960;Jumbo;93;2020;ZoÃ© Wittock;France, Belgium, Luxembourg;63.0
+961;Spy Intervention;93;2020;Drew Mylrea;USA;45.0
+962;Scooby!;93;2020;Tony Cervone;USA;57.0
+963;Ghosts of War;94;2020;Eric Bress;UK;54.0
+964;Ducobu 3;94;2020;Elie Semoun;France;43.0
+965;Klovn the Final;94;2020;Mikkel NÃ¸rgaard;Denmark;68.0
+966;A Nice Girl Like You;94;2020;Chris Riedell, Nick Riedell;USA;51.0
+967;The Turning - La casa del male;94;2020;Floria Sigismondi;UK, Ireland, Canada, USA, India;38.0
+968;New Mutants;94;2020;Josh Boone;USA, Canada;56.0
+969;The Runners;94;2020;Joey Loomis, Micah Lyons;USA;43.0
+970;Nonno questa volta Ã¨ guerra;94;2020;Tim Hill;USA;51.0
+971;The Grudge;94;2020;Nicolas Pesce;USA, Canada;42.0
+972;Bulbbul;94;2020;Anvita Dutt;India;66.0
+973;Endless;95;2020;Scott Speer;USA;46.0
+974;Lost Girls;95;2020;Liz Garbus;USA;61.0
+975;The Tax Collector;95;2020;David Ayer;USA;47.0
+976;Kokon;95;2020;Leonie Krippendorff;Germany;70.0
+977;Underwater;95;2020;William Eubank;USA;58.0
+978;Trigger Points;95;2020;James McDonagh;UK;37.0
+979;Artemis Fowl;95;2020;Kenneth Branagh;USA;41.0
+980;Two of Us;95;2020;Wych Kaosayananda;USA, Thailand;39.0
+981;Oka Chinna Viramam;95;2020;Sundeep Cheguri;India;73.0
+982;L'unico e insuperabile Ivan;95;2020;Thea Sharrock;USA;67.0
+983;Rogue Warfare 3: Death of a Nation;95;2020;Mike Gunther;USA;32.0
+984;Marafon zhelaniy;95;2020;Darya Charusha;Russia;49.0
+985;The Voices;96;2020;Wesley Alley, Bradley Fowler;USA;38.0
+986;Emerson Heights;96;2020;Jennifer Hook;USA;52.0
+987;Viena and the Fantomes;96;2020;Gerardo Naranjo;USA;40.0
+988;Fei lung gwoh gong;96;2020;Kenji Tanigaki, Aman Chang;Hong Kong;56.0
+989;Origini segrete;96;2020;David GalÃ¡n Galindo;Spain;61.0
+990;Devil's Night: Dawn of the Nain Rouge;96;2020;Sam Logan Khaleghi;USA;29.0
+991;Modo AviÃ£o;96;2020;CÃ©sar Rodrigues;Brazil;50.0
+992;Legionnaire's Trail;96;2020;Jose Magan;USA, Spain;32.0
+993;Body Cam;96;2020;Malik Vitthal;USA;52.0

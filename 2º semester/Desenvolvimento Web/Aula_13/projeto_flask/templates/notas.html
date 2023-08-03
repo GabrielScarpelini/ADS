@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notas</title>
+</head>
+<body>
+    <div><a href="/logout">Sair</a> | <a href="/area_logada">Área logada</a>
+    <h1>Suas notas são:</h1>
+    <ul>
+        {% for nota in aluno.notas %}
+        <li>{{ nota }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

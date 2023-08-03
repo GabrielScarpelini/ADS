@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina do aluno</title>
+</head>
+<body>
+    <h1>olá {{nome}}</h1>
+    <p>sua nota é {{nota}}</p>
+    
+    
+    {%if nota < 6 %}
+    <p>Reprovado</p>
+    {%endif%}
+    {%if nota >= 6 %}
+    <P> pegava as duas da frente fodac</P>
+    {%endif%}
+<ul>
+    {%for x in aluno%}
+    <li>{{ x }}</li>
+    {%endfor%}
+</ul>
+    <p>{{cara}}seu RA é {{ra}}'</p>
+</body>
+</html>

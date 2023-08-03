@@ -1,0 +1,3 @@
+quando a cardinalidade não for especificada atrbuir um relacionamento 1 pra 1 
+
+associação se faz o objeto e não na classe 
