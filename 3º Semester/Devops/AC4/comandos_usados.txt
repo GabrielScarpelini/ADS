@@ -1,0 +1,39 @@
+1  docker ps
+    2  docker compose
+    3  docker compose up
+    4  git clone https://github.com/GabrielScarpelini/AulaDevops/tree/03f39acc328921eff4537e71a8dd15b098e3775e/AC4
+    5  git clone https://github.com/GabrielScarpelini/AulaDevops.git
+    6  cd AC4
+    7  cd ac4
+    8  cd AulaDevops
+    9  cd AC4
+   10  git clone https://github.com/antoniodiasabc/docker2.git
+   11  cd docker2
+   12  docker ps
+   13  docker exit
+   14  exit
+   15  git clone https://github.com/antoniodiasabc/docker2.git
+   16  cd antoniodiasabc
+   17  cd antoniodiasabc
+   18  cd antoniodiasabc/docker2
+   19  cd antoniodiasabc
+   20  git clone https://github.com/antoniodiasabc/docker2.git
+   21  cd docker2
+   22  ls
+   23  vim aulamvc.py
+   24  vim docker-compose.yml
+   25  vim aulamvc.py
+   26  vim docker-compose.yml
+   27  ls-lrt
+   28  ls -lrt
+   29  docker-compose up
+   30  docker-compose up db -d
+   31  docker-compose ps
+   32  docker ps
+   33  docker exec -it 748c56cbeae9 /bin/bash
+   34  exit
+   35  vim aulamvc.py
+   36  cd docker2
+   37  vim aulamvc.py
+   38  docker-compose ps
+   39  docker-compose stop

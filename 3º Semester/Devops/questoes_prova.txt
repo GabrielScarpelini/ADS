@@ -1,0 +1,68 @@
+5 quests na prova
+
+desenvolvimento e integração
+
+produzir em equipe, dentro de prazo produzir dentro do limite de custo
+
+análise, design, codificação, teste, operação;
+sequencia e duração das atividades de cada fase dependem
+do processo de desenvolvimento e entrega de software
+
+fazer primeiro o que o cliente mais precisa
+
+plan > code > build > test > release > deploy > operate > plan...
+
+otimização e aperfeiçoamento de produtos em um ritmo mais rápido do que
+o das empresas que usam processos tradicionais de desenvolvimento de software
+e gestão de infra.
+
+fazer com qualidade, irá ser feito com velocidade alguma hora, pois evita o retrabalho
+
+benefits: {
+
+velocidade é consequência da qualidade, feedback rápido, quanto mais rápido melhor, testando tudo
+
+confiabilidade.
+
+escalabilidade.
+
+}
+
+para que trabalhar com github: para trabalhar com versionamento, repositório, não perder códigos
+
+git add . git commit > git push > git fetch > git checkout > git merge 
+
+                                   tipo um pull > sai da branch > joga para a main
+
+git diff monstra o que está de diferente na maquina e na nuvem 
+
+
+integrações e entregas contínuas.
+
+cada pergunta em cima do que foi visto nas AC
+
+comece pelas questôes faceis!
+
+integração continua:
+jenkins, bamboo, travis ci, buildbot, strider, go, integrity
+
+docker > construir, executar, distribuir 
+escalabilidade, usabilidade
+
+docker pull pegar a imagem pronto
+ou 
+
+docker file, criar a parada
+
+maquinas virtuais: docker é muito mais leve do que uma máquina virtual, docker >  3 camadas operacionais
+
+maquina virtual é bom para fazer maquinas iguais, assim replicando as mais 
+
+performance = docker 
+replicar = máquina vituals
+
+docker image, docker container, docker file
+
+testes, assim vê os problemas e assim já os resolvem
+
+serialização de objetos: capacidade de uma informação ir de um pc a outro 

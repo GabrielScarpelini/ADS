@@ -1,0 +1,8 @@
+sempre focar a parte mais difícil primeiro, teste muito o que for muito importante
+assim podem gerar e pegar os bugs
+
+fazer com qualidade desde do início
+
+quanto menos dependencias do software melhor
+
+CAIXA PRETA 

@@ -1,0 +1,24 @@
+como criar uma máquina virtual
+
+{oracle virtual box}
+
+virtual box;
+
+selecionar a pasta de origem;
+
+selecionar o SO da máquina;
+
+selecionar a versão;
+
+selecionar um config de memória de vídeo
+
+selecionar o disco rígido, dinâmicamente alocado (importante)
+
+continua ele mostra onde criou, e clicar em criar
+
+config > armazenamento > controladora IDE 
+
+redes: pelo menos uma NAT
+
+UBUNTU> Vantegens: velocidade, performance
+        desvantagem: usar pacote office (que não funfa)
