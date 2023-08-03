@@ -1,0 +1,8 @@
+Tá ligado
+
+terá um git hub da turma, para fazermos uma aplicação, back e front, assim sendo possível
+
+vamos definir o que faremos por sprint (definir um tempo para entregar demandas)
+
+vamos dividir em squads (sendo assim, cada squad terá uma função dentro do sistema como um todo)
+no final do semestre.
