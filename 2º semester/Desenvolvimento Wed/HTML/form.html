@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu primeiro Form</title>
+    <meta charset="UTF-8">
+
+</head>
+<!--estrutura do formulário OBS: o FOR da label é o id da linha debaixo-->
+<body>
+    <form action="obrigado_formulario.html" method="POST"> <!--assim que faz outra pg aparecer E POSTA
+        SEM MOSTRAR NA URL-->
+        <label for="firstname"> Nome </label> <br>
+        <input type="text" name="PrimeiroNome" id="firstname"> <br>
+        
+        <label for="lastname">Sobrenome</label> <br>
+        <input type="text"name="ultimonome" id="lastname"> <br>
+        
+        <label for="tx-senha">Sua senha </label> <br>
+        <input type="password"name= "senha" id="tx-senha"><br>
+        
+        <label for="tx-email">E-Mail</label>: <br>
+        <input type="email" name="email" id="tx-email"> <br>
+ 
+        <label for="tx-numero">Numero</label>: <br>
+        <input type="number" name="numero" id="tx-numero"> <br>
+   
+        <label for="tx-url">URL</label>: <br>
+        <input type="url" name="url" id="tx-url"> <br>
+     
+        <label for="tx-datahora">Data e Hora</label>: <br>
+        <input type="datetime-local" name="datahora" id="tx-datahora"> <br>
+     
+        <label for="tx-hora">Hora</label>: <br>
+        <input type="time" name="hora" id="tx-hora"> <br>
+     
+        <label for="tx-cor">Cor</label>: <br>
+        <input type="color" name="cor" id="tx-cor"> <br>
+        <!--fieldset caixa separando essa seção-->
+        
+        <fieldset>
+            <input type="radio" name="sexo" id="feminino"><label for="faminino" value="F">Feminino</label>
+            <input type="radio" name="sexo" id="masculino"><label for="masculino" value="M"> Masculino</label> <br>
+            <!--Esse fieldset reparaque o nome é o mesmo, isso é para separar o grupo 
+                e assim não pode selecionar ambos-->
+        </fieldset>
+        
+        <!-- GET é para pegar informações, porém mostra o que foi pesquisado/colocado no URL-->
+        <!--POST sobe pro servidor sem mostrar o que subiu no URL-->
+        
+        <fieldset>
+            <legend>Dados do ABCDM</legend>
+            <!-- para dar seleções ao user-->
+
+            <label for="abc_cidades">CIDADES DO GRANDE ABCDM</label><br>
+            <select name="grande abc" id="abc_cidades" lengh="20" ><br>
+                <option disabled selected>Selecione</option> <!--fazendo uma lacuna em branco-->
+                <option value="SP">SBC</option>              <!--selecionada e nomeada-->
+                <option value="SP">STO ANDRÈ</option>
+                <option value="SP">SCS</option>
+                <option value="SP">MAUÁ</option>
+                <option value="SP">DIADEMA</option>
+            </select><br>
+            
+            <input type="checkbox" nome="Residente" id="resident_abc"> <label for="resident_abc">Morador</label><br>
+
+            <!-- caixa de texto--> 
+            <label for="home_citizen">Descreva o Seu Bairro</label><br>       
+            <textarea name="Explique moradia" id="home_citizen"
+            cols="20" rows="5"> </textarea><br>
+
+        </fieldset>
+        <input type="reset" value="Limpar"> <!--ele volta ao padrão, não reseta-->
+        <input type="submit"name= "Enviar">
+    </form>    
+</body>
+</html>

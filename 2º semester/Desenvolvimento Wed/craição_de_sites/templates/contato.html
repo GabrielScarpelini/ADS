@@ -1,0 +1,50 @@
+{% extends "base.html"%}
+{% block head %}
+    <title>Cursinho Web - Contato</title>
+{% endblock %}
+{% block conteudo %}        
+        <main>
+            <h1>Dados para contato:</h1>     
+            <label for="complete_name">Nome Completo:</label><br>
+            <input type="text" name="nome_completo" id="complete_name" required><br>
+            
+            <label for="user_mail">E-mail:</label><br>
+            <input type="email" id="user_mail" name="email" required><br>
+            <br>   
+            <label for="Subject_choose">Qual discplina lhe interessa mais?</label><br>
+            <select name="Discplinas" id="Subject_choose" required> 
+                
+                <option disabled selected>Selecione</option>
+                <option valeu="subjetc">Desenvolvimento Web</option>
+                <option value="subject">Programação Orientada a Objetos</option>
+                <option value="subject">Engenharia de Software</option>
+                <option value="subject">Ambientes Operacionais</option>
+                <option value="subject">Linguagem SQL</option>
+
+            </select><br>
+            <br>
+            
+            <fieldset>
+            <legend>Quais linguagens você conhece?</legend>
+                <input type="checkbox" value="csharp" id="csharp_lan"><label for="csharp_lan">C#</label><br>
+                <input type="checkbox" value="Java" id="java_lan"><label for="java_lan">Java</label><br>
+                <input type="checkbox" value="js" id="js_lan"><label for="js_lan">JavaScript</label><br>
+                <input type="checkbox" value="python" id="python_lan"><label for="python_lan">Python</label><br>
+                <input type="checkbox" value="php" id="php_lan"><label for="php_lan">PHP</label><br>
+                <input type="checkbox" value="ruby" id="ruby_lan"><label for="ruby_lan">Ruby</label><br> 
+            <br>
+            </fieldset><br>
+            <fieldset>
+            <legend>Onde você conheceu o Cursinho Web?</legend>
+            <div>
+                <input type="radio" name="meio_de_comunicacao" id="friends"><label for="friends">Amigos</label><br>
+                <input type="radio" name="meio_de_comunicacao" id="google"><label for="google">Google</label><br>
+                <input type="radio" name="meio_de_comunicacao" id="youtube"><label for="youtube">Youtube</label><br>
+                <input type="radio" name="meio_de_comunicacao" id="insta"><label for="insta">Instagram</label><br>
+            </div>
+            </fieldset>
+            <br>     
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button> <br> 
+        </main>       
+{% endblock %}

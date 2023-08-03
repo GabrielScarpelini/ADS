@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <link rel="icon" href="static/img/livros.png">
+        <link rel="stylesheet" href="static/css/estilos.css">
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <img id="img-logo" src="static/img/logo.png" alt="aaa">
+            <nav>
+                <a href="/index">Página inicial</a> 
+                <a href="/disciplinas">Disciplinas oferecidas</a> 
+                <a href="/contato">Entre em contato</a>
+            </nav>
+        </header>
+        <main>
+            {% block conteudo%}
+            {% endblock %}
+        </main>
+        <footer>
+            Cursinho Web - Todos os direitos reservados <br>
+            Contato 
+            <a id="link-email" href= "mailto:email@provedor">email@provedor.com</a> 
+        </footer>
+    </body>
+</html>

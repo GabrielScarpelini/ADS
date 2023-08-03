@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block head %}
+        <title>Cursinho Web - Disciplinas oferecidas</title>
+{% endblock %}
+
+{% block conteudo %}
+        <main>
+            <h1>Disciplinas oferecidas:</h1>
+            <section>
+                <article>  
+                    <h2 class="titulo-article" >Desenvolvimento Web</h2>
+                    <p>Conhecer o conceito de desenvolvimento de sistemas
+                        dinâmicos para internet, aplicando as mais recentes tecnologias
+                        e metodos para esta área.</p>
+                    <h3>Habilidades</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python e Flask</li>
+                        </ul>
+                        <img src="static/img/web.png" alt="imagens das disciplinas">
+                </article>  
+                <article>
+                    <h2 class="titulo-article" >Programação Orientada a Objetos</h2>
+                    <p>Desenvolver lógica de raciocínio para orgaizar os elementos
+                        necessários para o desenvolvimento de programas orientados a objetos.</p>
+                    <h3>Habilidades</h3>
+                    <ul>
+                        <li>Dicionários</li>
+                        <li>Tratamentos de exceções</li>
+                        <li>Testes unitários</li>
+                        <li>Contrução de classes, atributos e métodos</li>
+                        <li>Herança e polimorfismo </li>
+                    </ul>
+                    <a href = "https://www.python.org/" target = "_blank" ><img src="static/img/python.png" alt="imagem python"></a>
+                </article>                            <!-- target = "_blank" cria outra aba-->
+            </section>
+        </main>
+{% endblock %}

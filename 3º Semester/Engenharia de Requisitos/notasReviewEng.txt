@@ -1,0 +1,50 @@
+foco de eng = modelagem de processos de negócios
+uma da fase é conhecer do negócio
+
+precisamos validar se o software cabe no negócio do cliente 
+
+modelagem de processos de negócio 
+
+1º entenda o negócio dps assimilar com a parte técnica (software)
+
+artefatos 
+
+foco total no negócio[
+    15 arqutetura de negócios para cada cenário{
+        cenário > nós operacionais(onde eu tô e 
+        quem tá lá[entender o que eles fazem]) quais são os níveis esperados na arquitetura de negócios
+        > capacidade (que a equipe tem naquele
+        cenário) > Processos 
+    } MAPA
+
+    16 dfd essencial para cada capaciadade
+    17 análise de eventos para cada cenário
+    18 descrção dos processos de negócio
+    19 regras do negócio
+]
+visão de negócio x software[
+    20 modelo conceitual de negócios (um para cada nó operacional)
+    21 análise do ciclo de vida
+]
+requisitos[
+    22 resultados do sistema (SSS)
+    23 matrizes de rastreabilidade (caracteristicas X SSS)
+]
+
+
+pensamento análitico
+as is = como é [
+    conversa com o dono para pegar todas as infos necessárias sobre o negócio
+    criação de um modelo de (AS IS)
+]
+to be = como será[
+    conversa com a equipe para propor melhorias (processos, solução de gagalos aumento de performance)
+]
+dois momentos que direcionam a modelagem de negócios
+
+BPM Business project manager (boas práticas)
+organização, documentação para apoiar a análise 
+
+documentções = artefatos
+
+
