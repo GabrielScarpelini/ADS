@@ -9,5 +9,4 @@ no final do semestre.
 
 quebra o problema por etapas, assim num software monolito se quebra algo pararia de funcionar tudo
 já num software comum, se tem duas api uma de cadastro e outra de pagamento, se a de cadastro para
-e a de pagamento funcionar, já sabemos que não é no gateway e sim na api de cadastro.
-
+e a de pagamento funcionar, já sabemos que não é no gateway e sim na api de cadastro
