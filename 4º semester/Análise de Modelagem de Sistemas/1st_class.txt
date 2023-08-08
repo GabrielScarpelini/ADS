@@ -31,3 +31,19 @@ arquiterura lado lado com o não funcional
 sss o artefato 22, ele tem a mescla entre não funcional e funcional,
 o sistema DEVE calcular e ele DEVE ser rápido
 
+Modelo é uma abstração da realidade
+
+não dá pra fazer tudo de cabeça
+FAÇA UM MODELO COM BASE NAS SUAS IDEIAS
+
+modelar é preciso considerar: requisitos, protótipos,
+tamanho do projeto, complexidade, prazos, custos, documentação,
+manutenção, reusabilidade... 
+
+software tem que ser dinâmico, assim sendo aplicaveis modificações acompanhando
+as mudanças do mercado e tudo mais. 
+
+modelar é documentar
+
+modelos são mais detalhados que requisitos e menos complexos do que o código
+
