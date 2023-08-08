@@ -1,0 +1,33 @@
+atacar problemas e não pessoas, se alguém faltou num grupo, fale do problema (ausência que gerou) e não da pessoa
+ter sido irresposável.
+
+o conteúdo que o prof passar no classroom é um complementar da aula
+
+ELE NÃO LÊ OS SLIDES então esse conteúdo extra é complementação das aulas. 
+
+um modelo nos ajuda a tomar decisões
+
+UML a gnt vai falar muito sobre isso...
+
+aprender a precificar o software
+
+REQUISITO é como colocar algo "tangivel" em um software!
+
+requisito funcional, o sistema tem que fazer
+requisito não funcional, o sistema tem que ser rápido, seguro...
+
+func == o que o sistema tem que fazer de função, 
+não func == algo que delimita tempo, segurança, é o que o dev tem que seguir
+
+ex o sistema deve fazer um calculo... ok o dev vai e fazer, independente se vai ser em 1 sec ow 30min
+mas aí é definido que o sistema tem que fazer esse calculo em 10 secs, aí é um caso de um req não funcional 
+
+não funcional == como vai ser feito.
+
+a performance é individual, se o sistema tem que ser rápido, pode alterar a arquiterura
+
+arquiterura lado lado com o não funcional
+
+sss o artefato 22, ele tem a mescla entre não funcional e funcional,
+o sistema DEVE calcular e ele DEVE ser rápido
+
