@@ -22,4 +22,11 @@ DCU design centrado no usuário
 
 DCU etapas: [identificar o contexto de uso, identificar requisitos, desenvolver a solução, avaliar a solução]
 
-apartir das restrições que podemos pensar as soluções
+apartir das restrições que podemos pensar as soluções,
+
+desejabilidade, viabilidade, praticabilidade
+
+modelos são criados visando a eficiência
+
+design thinking é sobre pegar todos os problemas de um projeto.
+
