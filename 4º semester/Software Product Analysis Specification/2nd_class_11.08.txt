@@ -1,0 +1,11 @@
+diagrama de deployment
+
+server{
+    presentation layer
+    business layer 
+    data layer 
+    cross cutting
+}
+
+client, web, business logicTier, database tier (mais usada)
+
