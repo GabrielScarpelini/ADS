@@ -1,0 +1,40 @@
+o framework facilita a vida do dev 
+
+ele tem muita coisa pronta tendo libs e tudo mais
+
+reaproveitamento de cdg nada mais é que que fazer as funções em um arquivo e usar ele e não criar
+as funções repetidas
+
+dentro do package.json
+
+axios é tipo o request do python
+express
+
+não pode colocar regra de negócio dentro do control
+a regra de negócio fica no service
+
+estrutura [control, service, repository]
+
+arquitetura é como o software está montado, os aquivos e tudo mais, exemplo da linha 13,14
+
+arquitetura do PIX é PHP
+
+Laravel, syfony frameworks PHP
+extents == import
+
+polimorfismo são varias formas, vários métodos com o mesmo nome, que fazem coisas diferentes
+
+classe estática é uma classe que nao precisa ser instanciado para usar suas funções/método ex console.log
+
+as vezes é melhor aprender um framework than a LP
+
+toda a requisição precisa do HTTP, sendo assim, procure a pasta http para começar 
+
+vamor usar o NGINX como servidor
+
+redis é um bando de dados em núvem, o que fica momentãneo ex{
+    vc faz um pix pra alguém, e se tentar fazer a mesma transação em pouco tempo
+    ele não deixará, por conta que, o redis armazerna a informação momentãneamente
+    sendo um BD em núvem com um tempo limite.
+}
+
