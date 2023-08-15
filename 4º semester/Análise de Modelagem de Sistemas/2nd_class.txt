@@ -1,0 +1,50 @@
+introdução a UML, 
+Unifield Modeling Language === UML 
+usos da UML(engenharia reversa e engenharia futura)
+a uml modela e documenta
+
+middle ware, o que fica no meio entre sistemas, ou usuário e soft ex: API
+
+não existe diagrama certo ou errado, existe diagrama suficiente
+
+Padrão de mercado (mesmo sendo old)
+
+isenção tecnológica... não deixar preso a nenhum liguagem nem a nenhuma api especifica
+
+não é processo de dev de software3
+
+uml possui 13 diagramas{ p == principal
+    casoso de uso, p
+    classes, p
+    objetos,
+    pacotes,
+    sequencia p,
+    comunicação,
+    máquina de estados p,
+    atividade p,
+    versão geral de integração,
+    componentes,
+    implantação,
+    estrutura composta,
+    temporização
+}
+*multiplas visões do sistema a ser modelado,
+*diagrama complementa o outro,
+*permite que falhas sejam descoberta,
+*fornecem informações estruturais e dinâmicas o sistema,
+*Alguns diagramas dão um enfoque geral, outros, uma visão especifica
+
+informação estrutural não muda, comportamental muda
+
+o stick men pode ser uma pessoa, um sistema ou um hardware
+
+no ator, coloca o nome do papel do que vai ser o ator, não deve deixar sempre como "ator"
+
+Bolinha == casos de uso
+
+vai no que seu cliente fala, ex: abrir jogo (se o cliente falou vai assim)
+
+o que a seta significa o estimulo, de onde ele veio
+
+ex se inicia o jogo é o usuário, se for um sistema de cx eletrônico pedindo o valor, o sistema pediu algo a seta passaria a vir do sistema
+
