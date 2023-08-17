@@ -48,3 +48,4 @@ o que a seta significa o estimulo, de onde ele veio
 
 ex se inicia o jogo é o usuário, se for um sistema de cx eletrônico pedindo o valor, o sistema pediu algo a seta passaria a vir do sistema
 
+        
