@@ -1,19 +1,19 @@
-const mysql = require("http")
+// const mysql = require("mysql2")
 
-const conn = mysql.createConnection({
-    host: "localhost",
-    user: "teste",
-    password: "teste1",
-    database: "teste fullstack"
-})
+// const conn = mysql.createConnection({
+//     host: "localhost",
+//     user: "teste",
+//     password: "teste1",
+//     database: "teste fullstack"
+// })
 
-conn.connect(function(error){
-    if (error){
-        alert("erro ao conectar com o Mysql")
-    }else{
-        alert("rodando")
-    }
-})
+// conn.connect(function(error){
+//     if (error){
+//         alert("erro ao conectar com o Mysql")
+//     }else{
+//         alert("rodando")
+//     }
+// })
 
 
 
