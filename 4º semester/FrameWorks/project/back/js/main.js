@@ -1,3 +1,21 @@
+const mysql = require("mysql2")
+
+const conn = mysql.createConnection({
+    host: "localhost",
+    user: "teste",
+    password: "teste1",
+    database: "teste fullstack"
+})
+
+conn.connect(function(error){
+    if (error){
+        alert("erro ao conectar com o Mysql")
+    }else{
+        alert("rodando")
+    }
+})
+
+
 
 function criaP () {                               
     const p = document.createElement('p');          //createElement usado pra criar algo no document 
@@ -42,7 +60,7 @@ form.addEventListener("submit", (e) => {
     }
 
     setResultado(txt, true)
-    // setTimeout(() => {window.location.reload()},5000)
+    setTimeout(() => {window.location.reload()},5000)
 })
 
 // {
