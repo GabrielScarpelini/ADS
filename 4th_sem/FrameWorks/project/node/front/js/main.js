@@ -1,11 +1,11 @@
-// const mysql = require("mysql2")
+const mysql = require('/mysql2')
 
-// const conn = mysql.createConnection({
-//     host: "localhost",
-//     user: "teste",
-//     password: "teste1",
-//     database: "teste fullstack"
-// })
+const conn = mysql.createConnection({
+    host: "localhost",
+    user: "teste",
+    password: "teste1",
+    database: "teste fullstack"
+})
 
 // conn.connect(function(error){
 //     if (error){
@@ -39,11 +39,12 @@ function setResultado (msg, isValid) {
   
 const form = document.querySelector("#formulario")
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
     e.preventDefault()
     const aluno =  e.target.querySelector("#studant")
     console.log(aluno.checked)
     
+    var tipo;
     const name =  e.target.querySelector("#name")
     const email =  e.target.querySelector("#email")
     const cpf_cnpj =  e.target.querySelector("#cnpf")
@@ -60,7 +61,39 @@ form.addEventListener("submit", (e) => {
     }
 
     setResultado(txt, true)
-    setTimeout(() => {window.location.reload()},5000)
+    // setTimeout(() => {window.location.reload()},5000)
+
+    aluno.checked == true ? tipo = "1" : tipo = "2"
+
+
+    const jsonPost = {
+        "name": name.value,
+        "email": email.value,
+        "user_type_id": tipo,
+        "password":123456,
+        "is_active": "1",
+        "cpf_cnpj": cpf_cnpj.value,
+        "terms": "1",
+        "birthday": birthday.value,
+        "phone": phone.value
+    }
+
+    //no init foram passados todos os params que precisamos para usar o fetch no método post
+    
+    console.log(jsonPost)
+    const init = {
+        method: "POST",
+        headers:{
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(jsonPost)   
+    }
+
+    // chamar o post pelo fetch
+    const response = await fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/user-teste", init)
+    const dados = await response.json()
+    console.log(dados)
+
 })
 
 // {
@@ -73,4 +106,4 @@ form.addEventListener("submit", (e) => {
 //     "terms": "1",
 //     "birthday": "17/09/1998",
 //     "phone": "48999999999"    
-//   } 
+//   }  
