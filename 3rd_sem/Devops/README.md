@@ -54,3 +54,5 @@ rm remove
 
 mkdir docs 
 mkdir src 
+
+após o VIM apertar esc e :WQ write quit
