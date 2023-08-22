@@ -1,11 +1,11 @@
-const mysql = require('/mysql2')
+// const mysql = require('/mysql2')
 
-const conn = mysql.createConnection({
-    host: "localhost",
-    user: "teste",
-    password: "teste1",
-    database: "teste fullstack"
-})
+// const conn = mysql.createConnection({
+//     host: "localhost",
+//     user: "teste",
+//     password: "teste1",
+//     database: "teste fullstack"
+// })
 
 // conn.connect(function(error){
 //     if (error){
@@ -38,6 +38,7 @@ function setResultado (msg, isValid) {
 }
   
 const form = document.querySelector("#formulario")
+console.log(document)
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault()
@@ -59,6 +60,8 @@ form.addEventListener("submit", async (e) => {
     }else{
         alert("é professor")
     }
+
+    console.log(txt)
 
     setResultado(txt, true)
     // setTimeout(() => {window.location.reload()},5000)
@@ -90,9 +93,9 @@ form.addEventListener("submit", async (e) => {
     }
 
     // chamar o post pelo fetch
-    const response = await fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/user-teste", init)
-    const dados = await response.json()
-    console.log(dados)
+    // const response = await fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/user-teste", init)
+    // const dados = await response.json()
+    // console.log(dados)
 
 })
 

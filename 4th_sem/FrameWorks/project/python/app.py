@@ -22,6 +22,22 @@ def cadastro():
             aluno = 1
         else:
             aluno = 2
+        
+        jsonSend = {
+            ["name"] : nome,
+            ["email"] : email,
+            ["user_type_id"] : aluno,
+            ["password"] : 123456,
+            ["is_active"] : "1",
+            ["cpf_cnpj"] : cpf_cnpj,
+            ["terms"] : "1",
+            ["birthday"] : birthday,
+            ["phone"] : number,
+        }
+
+
+        # return render_template("User_registered.html", name=nome, Email=email, cpf=cpf_cnpj, niver=birthday, phone=number, estudante=aluno)
+        return render_template("User_registered.html")
 
     return render_template("formCadastro_flask.html") 
 
