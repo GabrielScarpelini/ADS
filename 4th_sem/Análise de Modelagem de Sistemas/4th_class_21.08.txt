@@ -1,0 +1,29 @@
+documentação de casos de usos,
+
+a gente irá abordar fortemente
+
+a seta vem do que dá o primeiro estimulo
+
+diagrama de caso de uso acha só as funcionalidades
+
+boa prática da UML é fazer um doc para cada caso de uso
+
+caso de uso primario ou segundário, 1 quando é iniciado por um ator
+2 quando é iniciado por um caso de uso 
+
+ator primário, ator secundário
+
+o ator primário é quem precisa fazer, o ator secundário é quem faz (mas não precisa)
+
+vc precisa pagar o lanche no mc(ator primário) o caixa que vai no pdv (ator secundário)
+que faz o que o primário quer resolver
+
+quando um ator primário não mexe diretamente no sistema, ele é ligado ao sistema
+mas não tem seta, só tem a seta pelo ator secundário
+
+se há uma herança, aí sim é uma seta vazada de um ator no outro,
+
+EX, o o vendedor que tu falou pra comprar não está lá quando vc volta pra comprar
+o gerente vai acessar o sistema como um vendedor (herdando a função de um vendedor)
+
+PROX AULA fazer a documentação do UC 2
