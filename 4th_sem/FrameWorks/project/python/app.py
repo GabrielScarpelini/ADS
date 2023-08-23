@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session, redirect
+from flask import Flask, render_template, request, session, redirect, url_for
 
 app = Flask(__name__)
 
@@ -23,22 +23,28 @@ def cadastro():
         else:
             aluno = 2
         
-        jsonSend = {
-            ["name"] : nome,
-            ["email"] : email,
-            ["user_type_id"] : aluno,
-            ["password"] : 123456,
-            ["is_active"] : "1",
-            ["cpf_cnpj"] : cpf_cnpj,
-            ["terms"] : "1",
-            ["birthday"] : birthday,
-            ["phone"] : number,
-        }
+        jsonSend = {}
+            
+        jsonSend["name"] = nome
+        jsonSend["email"] = email
+        jsonSend["user_type_id"] = aluno
+        jsonSend["password"] = 123456
+        jsonSend["is_active"] = "1"
+        jsonSend["cpf_cnpj"] = cpf_cnpj
+        jsonSend["terms"] = "1"
+        jsonSend["birthday"] = birthday
+        jsonSend["phone"] = number
+        
 
-
-        # return render_template("User_registered.html", name=nome, Email=email, cpf=cpf_cnpj, niver=birthday, phone=number, estudante=aluno)
-        return render_template("User_registered.html")
+        return redirect(url_for("showRegisdtred", dados=jsonSend))
 
     return render_template("formCadastro_flask.html") 
+
+@app.route("/registrado")
+def showRegisdtred():
+    dados = eval(request.args.get("dados"))
+    # return str(type(dados))
+    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
+    phone=dados["phone"], estudante=dados["user_type_id"])
 
 app.run(debug=True)

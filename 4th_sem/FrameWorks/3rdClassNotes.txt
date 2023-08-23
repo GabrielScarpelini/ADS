@@ -4,3 +4,5 @@ se iremos criar a API ou como será feito)
 padrão mvc, docker, 
 
 id 1 aluno id 2 professor
+
+eval em python olha a string e o tranforma no que ele parece
