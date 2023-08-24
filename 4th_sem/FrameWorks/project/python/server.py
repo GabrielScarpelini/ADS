@@ -12,7 +12,6 @@ def principal():
     cadastro_model.criarTabelaUsuario()
     return render_template("entrada.html")
 
-
 @app.route("/cadastro", methods=["GET","POST"])
 def cadastro():
     if request.method == "POST":
@@ -28,25 +27,36 @@ def cadastro():
             aluno = 1
         else:
             aluno = 2
-        
-        jsonSend = {}
-            
-        jsonSend["name"] = nome
-        jsonSend["email"] = email
-        jsonSend["user_type_id"] = aluno
-        jsonSend["password"] = 123456
-        jsonSend["is_active"] = "1"
-        jsonSend["cpf_cnpj"] = cpf_cnpj
-        jsonSend["terms"] = "1"
-        jsonSend["birthday"] = birthday
-        jsonSend["phone"] = number
-        
 
-        return redirect(url_for("registrado", dados=jsonSend))
+        if nome =="":
+            return "Nome não informado",
+        elif email =="":
+            return "Email não informado",
+        elif cpf_cnpj =="":
+            return "CPF/CNPJ não informado"
+        elif birthday == "":
+            return "Data de nacimento não informada"
+        elif number == "":
+            return "Número de telefone não informado"
+
+        jsonUser = {}
+        jsonUser["name"] = nome
+        jsonUser["email"] = email
+        jsonUser["user_type_id"] = aluno
+        jsonUser["password"] = 123456
+        jsonUser["is_active"] = "1"
+        jsonUser["cpf_cnpj"] = cpf_cnpj
+        jsonUser["terms"] = "1"
+        jsonUser["birthday"] = birthday
+        jsonUser["phone"] = number
+        cadastro_model.inserirUsuario(jsonUser)
+
+        return redirect(url_for("registrado", dados=jsonUser))
 
     return render_template("formCadastro_flask.html") 
 
 @app.route("/registrado")
+
 def registrado():
     dados = eval(request.args.get("dados"))
     if request.method == "POST":

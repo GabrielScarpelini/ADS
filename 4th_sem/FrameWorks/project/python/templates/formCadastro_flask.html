@@ -14,7 +14,7 @@
 
   <section class="container">
     <h1>Cadastro de Usuário</h1>
-    <form method="POST">
+    <form id="cadastro" action="/submit"  method="POST">
       <label for="name">Nome</label>
       <input type="text" id="name" name="name">
 
@@ -39,7 +39,21 @@
     <div id="resultado"></div>
   </section>
 
-  <script src="{{url_for('static', filename="js/main.js")}}"></script>
+  <!-- <script src="{{url_for('static', filename="js/main.js")}}"></script> -->
+  <script>
+      document.getElementById("cadastro").addEventListener("submit", event =>{
+          const user_name = document.getElementById("name")[0].value
+          const user_email = document.getElementById("email")[0].value
+          const user_cpf = document.getElementById("cnpf")[0].value
+          const user_phone = document.getElementById("tel")[0].value
+          const user_birthday = document.getElementById("bday")[0].value
+
+        if(!user_name || !user_email || !user_cpf || !user_phone || !user_birthday){
+          event.preventDefault()
+          alert("Existem Campos que devem ser preenchidos")
+        }
+    })
+  </script>
 </body>
 
 </html>

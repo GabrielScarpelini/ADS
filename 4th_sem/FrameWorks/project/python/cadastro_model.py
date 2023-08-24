@@ -12,30 +12,36 @@ def criarTabelaUsuario():
         create_tabela_usuario = """
         CREATE TABLE IF NOT EXISTS Usuario (
             id INTEGER PRIMARY KEY,
-            nome TEXT NOT NULL UNIQUE,
+            nome TEXT NOT NULL,
             email TEXT NOT NULL UNIQUE,
             bday DATE NOT NULL,
-            cpf TEXT NOT NULL,
-            phone TEXT NOT NULL
+            cpf TEXT NOT NULL UNIQUE,
+            phone TEXT NOT NULL,
+            user_type INTEGER NOT NULL,
+            is_active INTEGER NOT NULL,
+            terms INTEGER NOT NULL,
+            password TEXT NOT NULL
         )
-        """    
+        """
         con.execute(create_tabela_usuario);
 
-    
-def inicializarTabelaDisciplina():
-    inserirDisciplina({'nome': "Lógica de Programação"})
-    inserirDisciplina({'nome': "Matemática"})
-    inserirDisciplina({'nome': "Banco de Dados"})
-    inserirDisciplina({'nome': "Desenvimento de Microsserviços e APIs"})
-
-
-def inserirDisciplina(disciplina):
-    nome = disciplina['nome'] 
+def inserirUsuario(usuario):
+    nome = usuario['name']
+    email = usuario['email']
+    aluno = usuario['user_type_id']
+    senha = usuario['password']
+    ativo = usuario['is_active']
+    termos = usuario['terms']
+    niver = usuario['birthday']
+    tel = usuario['phone']
+    cpf_cnpj = usuario['cpf_cnpj']
     with engine.connect() as con:    
-        sql_criar = "INSERT INTO Disciplina (nome) VALUES (:nome_disciplina)"
-        con.execute(sql_criar, nome_disciplina=nome)
+        sql_criar = """INSERT INTO Usuario (nome, email, bday, cpf, phone, user_type, is_active, terms, password) 
+        VALUES (:nome_user, :email_user, :bday_user, :cpf_user, :phone_user, :type_user, :active_user, :terms_user,
+        :pass_user)"""
+        con.execute(sql_criar, nome_user=nome, email_user=email, bday_user=niver, cpf_user=cpf_cnpj,
+        phone_user=tel, type_user=aluno, active_user=ativo, terms_user=termos, pass_user=senha)
 
-      
 def getDisciplinas():
     with engine.connect() as con:  #conecta no meu banco de dados
         statement = text ("""SELECT * FROM Disciplina""") 
