@@ -1,9 +1,15 @@
-from flask import Flask, render_template, request, session, redirect, url_for
+from flask import Flask, render_template, redirect, url_for
+from flask import request, session
+
+from sqlalchemy.sql import text
+
+import cadastro_model
 
 app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"])
 def principal():
+    cadastro_model.criarTabelaUsuario()
     return render_template("entrada.html")
 
 
@@ -36,15 +42,17 @@ def cadastro():
         jsonSend["phone"] = number
         
 
-        return redirect(url_for("showRegisdtred", dados=jsonSend))
+        return redirect(url_for("registrado", dados=jsonSend))
 
     return render_template("formCadastro_flask.html") 
 
 @app.route("/registrado")
-def showRegisdtred():
+def registrado():
     dados = eval(request.args.get("dados"))
-    # return str(type(dados))
+    if request.method == "POST":
+        return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
+            phone=dados["phone"], estudante=dados["user_type_id"])
     return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
-    phone=dados["phone"], estudante=dados["user_type_id"])
+        phone=dados["phone"], estudante=dados["user_type_id"])
 
-app.run(debug=True)
+app.run(app.run(host = 'localhost', port = 5002, debug = True))

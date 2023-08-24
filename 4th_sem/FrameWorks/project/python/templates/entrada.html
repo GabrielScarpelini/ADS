@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="{{url_for('static', filename="css/style.css")}}">
 </head>
 <body>
+    <a href="/cadastro">Criar conta</a>
     <section class="container">
-        <a href="/cadastro">Cadastrar Usuário</a>
+        <form action="POST">
+            <h1>Bem vindo de Volta!</h1>
+        
+            <label for="login">Usuário</label>
+            <input type="text" id="login" name="login">
+        
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha">
+        </form>        
+        <button type="submit">Login</button>
+        <a href="/cadastro">Esqueci Minha Senha</a>
     </section>
 </body>
 </html>
