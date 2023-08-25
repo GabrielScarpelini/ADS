@@ -42,23 +42,22 @@ def inserirUsuario(usuario):
         con.execute(sql_criar, nome_user=nome, email_user=email, bday_user=niver, cpf_user=cpf_cnpj,
         phone_user=tel, type_user=aluno, active_user=ativo, terms_user=termos, pass_user=senha)
 
-def getDisciplinas():
+def loginUser(email, password):
     with engine.connect() as con:  #conecta no meu banco de dados
-        statement = text ("""SELECT * FROM Disciplina""") 
-        
-        rs = con.execute(statement) 
-        disciplinas = rs.fetchall()                 
-        if disciplinas == []:                       
+        statement = text ("""SELECT * FROM Usuario WHERE email= :email_ AND password= :pass_""") 
+        rs = con.execute(statement, email_=email, pass_=password) 
+        usuario = rs.fetchone() 
+        print(usuario)
+        if usuario == None:
             return None
-        result = [dict(disciplina) for disciplina in disciplinas]
-        return jsonify(result)
+        # result = [dict(user) for user in usuario]
+        return usuario
         
 
 
 def getDisciplinaId(id_disciplina):
     with engine.connect() as con:  #conecta no meu banco de dados
-        statement = text ("""SELECT * FROM Disciplina WHERE id = :id_""") 
-        
+        statement = text ("""SELECT * FROM Disciplina WHERE id= :id_ """) 
         rs = con.execute(statement, id_=id_disciplina) 
         disciplina = rs.fetchone()                   
         if disciplina == None:
