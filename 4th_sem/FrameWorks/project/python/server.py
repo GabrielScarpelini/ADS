@@ -9,7 +9,9 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
+    cadastro_model.criarTabelaTipo()
     cadastro_model.criarTabelaUsuario()
+    cadastro_model.inicializaTBTipo()
     
     if request.method == "POST":
         email = request.form.get("login")
