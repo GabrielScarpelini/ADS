@@ -46,8 +46,6 @@ def cadastro():
         jsonUser["password"] = 123456
         jsonUser["is_active"] = "1"
         jsonUser["cpf_cnpj"] = cpf_cnpj
-        jsonUser["terms"] = "1"
-        jsonUser["birthday"] = birthday
         jsonUser["phone"] = number
         cadastro_model.inserirUsuario(jsonUser)
 
