@@ -7,7 +7,7 @@ import cadastro_model
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET","POST"])
+@app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
     cadastro_model.criarTabelaUsuario()
     
