@@ -6,3 +6,5 @@ sudo apt install comando para baixar qualquer aplicação, programa, lib
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
 git pull --no-ff pra tirar o fast-foward
+
+laguin no note
