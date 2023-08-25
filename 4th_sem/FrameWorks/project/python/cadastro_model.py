@@ -103,7 +103,7 @@ def alterarDisciplina(id_disciplina, novos_dados):
     disciplina = getDisciplinaId(id_disciplina)
     if disciplina == None:
         return None
-    
+
     with engine.connect() as con:    
         sql_editar = "UPDATE Disciplina SET nome=:nome WHERE id =:id_"
         con.execute(sql_editar, nome=novos_dados['nome'], id_=id_disciplina)

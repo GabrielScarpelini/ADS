@@ -11,7 +11,6 @@ app = Flask(__name__)
 def principal():
     cadastro_model.criarTabelaTipo()
     cadastro_model.criarTabelaUsuario()
-    cadastro_model.inicializaTBTipo()
     
     if request.method == "POST":
         email = request.form.get("login")
@@ -24,6 +23,12 @@ def principal():
             return 'uwu'
 
     return render_template("entrada.html")
+
+@app.route("/inicia")
+def inicia():
+    cadastro_model.inicializaTBTipo()
+    return "Tabela Tipo Atualizada"
+
 
 @app.route("/cadastro", methods=["GET","POST"])
 def cadastro():
@@ -43,7 +48,6 @@ def cadastro():
 
         if not email and nome and cpf_cnpj and birthday and number:
             return 'operação inválida'
-
 
         jsonUser = {}
         jsonUser["name"] = nome
