@@ -14,13 +14,11 @@ def criarTabelaUsuario():
             id INTEGER PRIMARY KEY,
             nome TEXT NOT NULL,
             email TEXT NOT NULL UNIQUE,
-            bday DATE NOT NULL,
+            user_type INTEGER NOT NULL,
+            password TEXT NOT NULL,
+            is_active INTEGER NOT NULL,
             cpf TEXT NOT NULL UNIQUE,
             phone TEXT NOT NULL,
-            user_type INTEGER NOT NULL,
-            is_active INTEGER NOT NULL,
-            terms INTEGER NOT NULL,
-            password TEXT NOT NULL
         )
         """
         con.execute(create_tabela_usuario);
