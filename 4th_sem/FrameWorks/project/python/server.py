@@ -7,9 +7,20 @@ import cadastro_model
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET","POST"])
+@app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
     cadastro_model.criarTabelaUsuario()
+    
+    if request.method == "POST":
+        email = request.form.get("login")
+        password = request.form.get("senha")
+        cadastrado = cadastro_model.loginUser(email, password)
+        print(cadastrado)
+        if cadastrado:
+           return cadastrado.email
+        else:
+            return 'uwu'
+
     return render_template("entrada.html")
 
 @app.route("/cadastro", methods=["GET","POST"])
@@ -28,16 +39,9 @@ def cadastro():
         else:
             aluno = 2
 
-        if nome =="":
-            return "Nome não informado",
-        elif email =="":
-            return "Email não informado",
-        elif cpf_cnpj =="":
-            return "CPF/CNPJ não informado"
-        elif birthday == "":
-            return "Data de nacimento não informada"
-        elif number == "":
-            return "Número de telefone não informado"
+        if not email and nome and cpf_cnpj and birthday and number:
+            return 'operação inválida'
+
 
         jsonUser = {}
         jsonUser["name"] = nome
@@ -53,9 +57,9 @@ def cadastro():
 
     return render_template("formCadastro_flask.html") 
 
-@app.route("/registrado")
+@app.route("/registrado", methods=['POST', "GET"])
 
-def registrado():
+def registrado():   
     dados = eval(request.args.get("dados"))
     if request.method == "POST":
         return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
