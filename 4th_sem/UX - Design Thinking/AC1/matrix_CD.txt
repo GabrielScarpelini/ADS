@@ -1,0 +1,17 @@
+certezas{
+    será online (remoto),
+    os alunos deverão ser cadastrados no sistema,
+    no cadastro dos alunos terá o campo de idade,
+    os cursos serão gravados,
+    os professores serão cadastrados,
+    no cadastro dos professores deverá conter o email,
+    usar um servidor em docker que tem uma fácil escalabilidade
+}
+
+dúvidas{
+    se os professores estão respondendo as dúvidas enviadas pelos alunos,
+    se está fácil dos alunos acompanharem as aulas,
+    se as aulas gravadas possuem linguagem de sinais (para deficientes auditivos),
+    se os professores usam linguagem que todos os públicos iriam entender,
+    se os alunos independente da idade está sendo um incentivado de forma correta
+}
