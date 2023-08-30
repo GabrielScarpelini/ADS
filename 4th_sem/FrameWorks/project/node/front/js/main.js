@@ -1,3 +1,5 @@
+// import 
+
 const mysql = require('/mysql2')
 
 const conn = mysql.createConnection({
@@ -7,20 +9,11 @@ const conn = mysql.createConnection({
     database: "teste fullstack"
 })
 
-// conn.connect(function(error){
-//     if (error){
-//         alert("erro ao conectar com o Mysql")
-//     }else{
-//         alert("rodando")
-//     }
-// })
-
-
-
 function criaP () {                               
     const p = document.createElement('p');          //createElement usado pra criar algo no document 
     return p;
 }
+
 function setResultado (msg, isValid) {
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
@@ -48,7 +41,6 @@ form.addEventListener("submit", async (e) => {
     const name =  e.target.querySelector("#name")
     const email =  e.target.querySelector("#email")
     const cpf_cnpj =  e.target.querySelector("#cnpf")
-    const birthday =  e.target.querySelector("#bday")
     const phone =  e.target.querySelector("#tel")
     const txt = `Olá ${name.value}, Seu cadastro foi finalizado, favor verifique
     seu email (${email.value}) para finalizar o seu cadastro, CPF/CNPJ ${cpf_cnpj.value},
@@ -61,7 +53,7 @@ form.addEventListener("submit", async (e) => {
     }
 
     setResultado(txt, true)
-    // setTimeout(() => {window.location.reload()},5000)
+    setTimeout(() => {window.location.reload()},5000)
 
     aluno.checked == true ? tipo = "1" : tipo = "2"
 
@@ -74,26 +66,10 @@ form.addEventListener("submit", async (e) => {
         "is_active": "1",
         "cpf_cnpj": cpf_cnpj.value,
         "terms": "1",
-        "birthday": birthday.value,
         "phone": phone.value
     }
-
-    //no init foram passados todos os params que precisamos para usar o fetch no método post
     
     console.log(jsonPost)
-    const init = {
-        method: "POST",
-        headers:{
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(jsonPost)   
-    }
-
-    // chamar o post pelo fetch
-    const response = await fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/user-teste", init)
-    const dados = await response.json()
-    console.log(dados)
-
 })
 
 // {
