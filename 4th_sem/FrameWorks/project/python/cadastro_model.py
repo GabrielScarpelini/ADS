@@ -35,7 +35,7 @@ def criarTabelaUsuario():
         CREATE TABLE IF NOT EXISTS Usuario (
             id INTEGER PRIMARY KEY,
             nome TEXT NOT NULL,
-            email TEXT NOT NULL UNIQUE,
+            email TEXT NOT NULL,
             user_type INTEGER NOT NULL,
             password TEXT NOT NULL,
             is_active INTEGER NOT NULL,

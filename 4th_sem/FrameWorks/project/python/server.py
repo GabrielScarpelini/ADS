@@ -67,9 +67,9 @@ def cadastro():
 def registrado():   
     dados = eval(request.args.get("dados"))
     if request.method == "POST":
-        return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
+        return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"],
             phone=dados["phone"], estudante=dados["user_type_id"])
-    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
+    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"],
         phone=dados["phone"], estudante=dados["user_type_id"])
 
 app.run(app.run(host = 'localhost', port = 5002, debug = True))
