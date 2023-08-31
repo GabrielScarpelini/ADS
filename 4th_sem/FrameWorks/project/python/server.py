@@ -38,7 +38,6 @@ def cadastro():
         studant = request.form.get("studant")
         aluno = 0
         cpf_cnpj = request.form.get("cnpf")
-        birthday = request.form.get("bday")
         number = request.form.get("tel")
 
         if studant == "on":
@@ -46,7 +45,7 @@ def cadastro():
         else:
             aluno = 2
 
-        if not email and nome and cpf_cnpj and birthday and number:
+        if not email and nome and cpf_cnpj and number:
             return 'operação inválida'
 
         jsonUser = {}

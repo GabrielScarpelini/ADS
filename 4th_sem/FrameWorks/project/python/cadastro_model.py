@@ -20,7 +20,7 @@ def criarTabelaTipo(): #que guardará o tipo se é aluno ow professor
 def populaTabelaTipo(dic):
     nome = dic['nome']
     with engine.connect() as con:
-        sql_criar = "INSERT INTO Tipo.nome VALUES :name_",
+        sql_criar = "INSERT INTO Tipo (nome) VALUES (:name_)",
         con.execute(sql_criar, name_=nome)
 
 def inicializaTBTipo():
