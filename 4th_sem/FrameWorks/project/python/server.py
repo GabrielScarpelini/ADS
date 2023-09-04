@@ -38,7 +38,6 @@ def cadastro():
         studant = request.form.get("studant")
         aluno = 0
         cpf_cnpj = request.form.get("cnpf")
-        birthday = request.form.get("bday")
         number = request.form.get("tel")
 
         if studant == "on":
@@ -46,7 +45,7 @@ def cadastro():
         else:
             aluno = 2
 
-        if not email and nome and cpf_cnpj and birthday and number:
+        if not email and nome and cpf_cnpj and number:
             return 'operação inválida'
 
         jsonUser = {}
@@ -68,9 +67,9 @@ def cadastro():
 def registrado():   
     dados = eval(request.args.get("dados"))
     if request.method == "POST":
-        return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
+        return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"],
             phone=dados["phone"], estudante=dados["user_type_id"])
-    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"], niver=dados["birthday"],
+    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf_cnpj"],
         phone=dados["phone"], estudante=dados["user_type_id"])
 
 app.run(app.run(host = 'localhost', port = 5002, debug = True))

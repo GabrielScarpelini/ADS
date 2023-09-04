@@ -20,7 +20,7 @@ def criarTabelaTipo(): #que guardará o tipo se é aluno ow professor
 def populaTabelaTipo(dic):
     nome = dic['nome']
     with engine.connect() as con:
-        sql_criar = "INSERT INTO Tipo.nome VALUES :name_",
+        sql_criar = "INSERT INTO Tipo (nome) VALUES (:name_)",
         con.execute(sql_criar, name_=nome)
 
 def inicializaTBTipo():
@@ -35,7 +35,7 @@ def criarTabelaUsuario():
         CREATE TABLE IF NOT EXISTS Usuario (
             id INTEGER PRIMARY KEY,
             nome TEXT NOT NULL,
-            email TEXT NOT NULL UNIQUE,
+            email TEXT NOT NULL,
             user_type INTEGER NOT NULL,
             password TEXT NOT NULL,
             is_active INTEGER NOT NULL,
