@@ -1,14 +1,13 @@
 from flask import Flask, render_template, redirect, url_for
 from flask import request, session
 
-from sqlalchemy.sql import text
-
 import cadastro_model
 
 app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
+    cadastro_model.criarTabelaUsuario_mysql()
     cadastro_model.criarTabelaTipo()
     cadastro_model.criarTabelaUsuario()
     

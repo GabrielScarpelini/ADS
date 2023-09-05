@@ -6,6 +6,26 @@ import conexao_bd
 
 engine = conexao_bd.getConexao()
 
+
+conn = conexao_bd.mySQL_conection()
+cursor = conn.cursor()
+
+def criarTabelaUsuario_mysql():
+    create_tabela_usuario = """       
+        CREATE TABLE IF NOT EXISTS usuario (
+            id INTEGER PRIMARY KEY,
+            nome TEXT NOT NULL,
+            email TEXT NOT NULL,
+            data_nascimento DATE NOT NULL
+        )
+        """
+    cursor.execute(create_tabela_usuario)
+    conn.commit()
+    
+    cursor.close()
+    conn.close()
+
+
 def criarTabelaTipo(): #que guardará o tipo se é aluno ow professor
     with engine.connect() as con:    
         create_tabela_tipo = """       
