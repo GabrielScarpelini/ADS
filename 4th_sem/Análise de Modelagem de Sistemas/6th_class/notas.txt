@@ -1,0 +1,17 @@
+manter significa que será um CRUD no documento pode explicar casa passo em cada passo do documento
+passo um (incluir) passo dois (inclur) e por aí vai 
+
+pegar os docs dele no classroom
+
+abandono do ator (desistir de excluir ex)
+é um fluxo de exceção por parte do ator e não do sistema.
+
+sistema clinica veterinária, análise{
+    realizar consulta é onde pesa no corpo.
+    cliente > marcar consulta > secretária,
+    cliente > realizar consulta > veterinário,
+    realizar extend marcar exames caso seja necessário,
+    marcar consulta extend manter cliente (pode ser um novo cliente emergancia),
+    marcar consulta FX extend animal (pode ser um novo cliente emergencia),
+    a secretária que cuida dos manteres (>), clientes, veterinários, mantér animais, manter espécies
+}
