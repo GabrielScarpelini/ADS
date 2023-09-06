@@ -1,22 +1,3 @@
-// const mysql = require('/mysql2')
-
-// const conn = mysql.createConnection({
-//     host: "localhost",
-//     user: "teste",
-//     password: "teste1",
-//     database: "teste fullstack"
-// })
-
-// conn.connect(function(error){
-//     if (error){
-//         alert("erro ao conectar com o Mysql")
-//     }else{
-//         alert("rodando")
-//     }
-// })
-
-
-
 function TestaCPF(strCPF) {
     var Soma;
     var Resto;
@@ -42,64 +23,55 @@ const form = document.querySelector("#formulario")
 console.log(document)
 window.alert("esta com JS")
 
-form.addEventListener("submit", async (e) => {
-    e.preventDefault()
-    const aluno =  e.target.querySelector("#studant")
-    console.log(aluno.checked)
+form.addEventListener("submit", (e) => {
+    // const aluno =  e.target.querySelector("#studant")
+    // console.log(aluno.checked)
     
     var tipo;
-    const name = e.target.querySelector("#name")
-    const email = e.target.querySelector("#email")
-    const cpf_cnpj = e.target.querySelector("#cpf")
+    const name = document.querySelector("#name")
+    const email = document.querySelector("#email")
+    const cpf_cnpj = document.querySelector("#cpf")
+    const senha = document.querySelector("#senha")
+    const senhaConfirm = document.querySelector("#senha2")
 
+    console.log(senha.value)
+    console.log(senhaConfirm.value)
 
+    if (senha.value != senhaConfirm.value){
+        e.preventDefault()
+        window.alert("as senhas devem ser iguais")
+        
+    }else if(TestaCPF(cpf_cnpj.value) == false){
+        window.alert("O CPF/CNPJ não é válido")
+        e.preventDefault()
+    }else{
+        window.alert("Sucesso no cadastro")
+    }
 
-    const txt = `Olá ${name.value}, Seu cadastro foi finalizado, favor verifique
-    seu email (${email.value}) para finalizar o seu cadastro, CPF/CNPJ ${cpf_cnpj.value},
-    data de nascimento ${birthday.value}, Tel ${phone.value}`
-
-
-    console.log(txt)
-
-    setResultado(txt, true)
-    // setTimeout(() => {window.location.reload()},5000)
-
-    aluno.checked == true ? tipo = "1" : tipo = "2"
-
+//cnpj completo 18 carc cpf 14 
 
     const jsonPost = {
         "name": name.value,
         "email": email.value,
         "user_type_id": tipo,
-        "password":123456,
+        "password": senha,
         "is_active": "1",
-        "cpf_cnpj": cpf_cnpj.value,
-        "terms": "1",
-        "birthday": birthday.value,
-        "phone": phone.value
+        "cpf_cnpj": cpf_cnpj.value
     }
 
-    //no init foram passados todos os params que precisamos para usar o fetch no método post
-    
+    var url = `/registrado?dados=${jsonPost}`;
+    fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            console.log(data); // Exibe a resposta do servidor no console
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+        });
+
     console.log(jsonPost)
-    const init = {
-        method: "POST",
-        headers:{
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(jsonPost)   
-    }
-
+    return true
+    // window.location.href = `/registrado`
 })
 
-// {
-//     "name": "Gabriel",
-//     "email": "gabriel.spavia@gmail.com",
-//     "user_type_id": "1",
-//     "password": "123456",
-//     "is_active": "1",
-//     "cpf_cnpj": "51804500000117",
-//     "terms": "1",
-//     "birthday": "17/09/1998",
-//     "phone": "48999999999"    
-//   }  
+

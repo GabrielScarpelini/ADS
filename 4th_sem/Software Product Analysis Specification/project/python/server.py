@@ -4,6 +4,7 @@ from flask import request, session
 import cadastro_model
 
 app = Flask(__name__)
+app.secret_key = "123456"
 
 @app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
@@ -34,26 +35,32 @@ def cadastro():
     if request.method == "POST":
         nome = request.form.get("name")
         email = request.form.get("email")
+        cpf = request.form.get("cpf")
+        senha = request.form.get("senha")
 
-        if not email and nome:
-            return 'operação inválida'
 
         jsonUser = {}
         jsonUser["name"] = nome
         jsonUser["email"] = email
+        jsonUser["cpf"] = cpf
+        jsonUser["senha"] = senha
 
         cadastro_model.inserirUsuario_mysql(jsonUser)
+
+        session["dados"] = jsonUser
 
         return redirect(url_for("registrado", dados=jsonUser))
 
     return render_template("formCadastro_flask.html") 
 
-@app.route("/registrado", methods=['POST', "GET"])
+@app.route("/registrado", methods=["GET"])
 
 def registrado():   
-    dados = eval(request.args.get("dados"))
-    if request.method == "POST":
-        return render_template("User_registered.html", name=dados["name"], Email=dados["email"])
-    return render_template("User_registered.html", name=dados["name"], Email=dados["email"])
+    dados = session.get("dados")
+    print(dados)
+    # dados = request.args.get("dados")
+    # if request.method == "POST":
+    #     return render_template("User_registered.html", name=dados["name"], Email=dados["email"])
+    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf"])
 
 app.run(app.run(host = 'localhost', port = 5002, debug = True))

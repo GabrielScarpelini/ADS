@@ -15,7 +15,8 @@ def criarTabelaUsuario_mysql():
             id INT AUTO_INCREMENT PRIMARY KEY,
             nome VARCHAR(255) NOT NULL,
             email VARCHAR(255) UNIQUE NOT NULL,
-            cpf_cnpj VARCHAR(255) UNIQUE NOT NULL                                                                                                                                   
+            cpf_cnpj VARCHAR(255) UNIQUE NOT NULL,
+            senha CHAR(15) NOT NULL                                                                                                                           
         )
         """
     cursor.execute(create_tabela_usuario)
@@ -24,9 +25,10 @@ def criarTabelaUsuario_mysql():
 def inserirUsuario_mysql(usuario):
     nome = usuario['name']
     email = usuario['email']
-    email = usuario['email']
-    statement = """INSERT INTO usuario (nome, email) VALUES (%s, %s)"""
-    values = [nome, email]
+    cpf = usuario['cpf']
+    senha = usuario['senha']
+    statement = """INSERT INTO usuario (nome, email, cpf_cnpj, senha) VALUES (%s, %s, %s, %s)"""
+    values = [nome, email, cpf, senha]
     cursor.execute(statement, values)
     conn.commit()
 
