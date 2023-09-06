@@ -1,0 +1,48 @@
+certezas{
+    será online (remoto), #
+    os alunos deverão ser cadastrados no sistema, #
+    no cadastro dos alunos terá o campo de idade, #
+    os cursos serão gravados, #
+    os professores serão cadastrados, #
+    no cadastro dos professores deverá conter o email, #
+    usar um servidor em docker que tem uma fácil escalabilidade # 
+    Usuários vão ultilizar a plataforma de estudo em um dispositivo movel. #
+    Oportunidade de estudar a qualquer horário ou de qualquer lugar. #   
+	Com a informação em larga escala o conhecimento é mais amplo; # 
+	Muitas classes sociais e gerações estão com dificuldade de se readaptar e se integrar a internet; #
+	Pessoas que possuem dificuldade em grande parte são descartáveis e não se aproveitam o que elas têm de valor; #
+    Pessoas que tiverem interesse em estudar, terá todo o apoio para aprender sempre mais. #
+    Todas as pessoas independente de classe pode ser um participante da plataforma. #
+    O uso da plataforma pode ser feito através do conforto de cada um. #
+    Atualizações na grade dos cursos em tempo real. #
+}
+
+dúvidas{
+    se os professores estão vendo o email e repondendo os alunos, #
+    se está fácil dos alunos acompanharem as aulas, #
+    se as aulas gravadas possuem linguagem de sinais (para deficientes auditivos), #
+    se os alunos independente da idade está sendo um incentivado de forma correta #
+    A plataforma de ensino realmente está ensinando os usuários? #
+    A didática dos instrutores está realmente de acordo? #
+    As pessoas possuem a facilidades e acessos a informação ou a internet? #
+	As pessoas gostam ou gostariam de se integrar a nossa plataforma? #
+	Qual a boa prática para se puxar a atenção, ensinar e entreter um aluno de todas as idades e condições? #
+	Atualmente os cursos online são eficientes para classes sociais com mais dificuldades? #
+    Posso acessar a plataforma de qualquer lugar que possuir internet? #
+    Independentemente de classe , gênero e outros fatores , posso ser um participante? #
+    Se eu tiver duvidas nas atividades terei apoio pelos responsáveis da plataforma? #
+    Terá certificado para os cursos da plataforma? #
+}
+
+
+Suposições{
+    juntar todas as Certezas e o que tem de Dúvida, assim são feitas as suposições
+    A educação nas escolas está cada vez mais ineficiente;
+    As pessoas estão cada vez mais conectadas e com fácil acesso a informação;
+	Instituições e Universidades estão perdendo espaço em nosso país para a internet;
+    professores estão respondendo as dúvidas enviadas pelos alunos,
+    Professores usam linguagem que todos os públicos iriam entender,
+    Os usuários às vezes estão perdendo o foco
+    Tem usuários com alguma dificuldade na utilização da plataforma
+	As pessoas possuem condições, disponibilidade e tempo para acessar a plataforma
+}
