@@ -1,112 +1,112 @@
-// const mysql = require('/mysql2')
+function TestaCPF(strCPF) {
+    var Soma;
+    var Resto;
+    Soma = 0;
+  if (strCPF == "00000000000") return false;
 
-// const conn = mysql.createConnection({
-//     host: "localhost",
-//     user: "teste",
-//     password: "teste1",
-//     database: "teste fullstack"
-// })
+  for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+  Resto = (Soma * 10) % 11;
 
-// conn.connect(function(error){
-//     if (error){
-//         alert("erro ao conectar com o Mysql")
-//     }else{
-//         alert("rodando")
-//     }
-// })
+    if ((Resto == 10) || (Resto == 11))  Resto = 0;
+    if (Resto != parseInt(strCPF.substring(9, 10)) ) return false;
 
+  Soma = 0;
+    for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
+    Resto = (Soma * 10) % 11;
 
-
-function criaP () {                               
-    const p = document.createElement('p');          //createElement usado pra criar algo no document 
-    return p;
+    if ((Resto == 10) || (Resto == 11))  Resto = 0;
+    if (Resto != parseInt(strCPF.substring(10, 11) ) ) return false;
+    return true;
 }
-function setResultado (msg, isValid) {
-    const resultado = document.querySelector('#resultado');
-    resultado.innerHTML = '';
-    
-    const p = criaP();
-  
-    if (isValid) {
-        p.classList.add('paragrafo-resultado');        // p criado na função cria p, e aqui atribui uma classe a ele 
-    } else {
-        p.classList.add('bad');
+
+function AdicionaSenha(){
+    const tipo = document.getElementById("tipo")
+
+    if(tipo.value == "ADM"){
+        var fieldPass = document.createElement("input")
+
+        var labelPass = document.createElement("label")
+        labelPass.textContent = "Senha Admin"
+        labelPass.id = "label_id"
+        labelPass.setAttribute("for", fieldPass)
+
+        fieldPass.label = "Senha ADM"
+        fieldPass.type = "password"
+        fieldPass.name = "Senha Admin"
+        fieldPass.id = "adm_pass"
+        var formulario = document.getElementById("formulario")
+        formulario.appendChild(labelPass)
+        formulario.appendChild(fieldPass)
+    }else{
+        var formulario = document.getElementById("formulario")
+        var elementos = formulario.children
+        var inputPassIndex = elementos[elementos.length - 1]
+        var labelPassIndex = elementos[elementos.length - 2]
+
+        if(inputPassIndex.id == "adm_pass" && labelPassIndex.id == "label_id"){
+            formulario.removeChild(inputPassIndex)
+            formulario.removeChild(labelPassIndex)
+        }
     }
-  
-    p.innerHTML = msg;
-    resultado.appendChild(p);
 }
   
 const form = document.querySelector("#formulario")
-console.log(document)
 
-form.addEventListener("submit", async (e) => {
-    e.preventDefault()
-    const aluno =  e.target.querySelector("#studant")
-    console.log(aluno.checked)
+// conexao = mysqli_connect("localhost", "seu_usuario", "sua_senha", "seu_banco_de_dados");
+
+form.addEventListener("submit", (e) => {
+
     
-    var tipo;
-    const name =  e.target.querySelector("#name")
-    const email =  e.target.querySelector("#email")
-    const cpf_cnpj =  e.target.querySelector("#cnpf")
-    const birthday =  e.target.querySelector("#bday")
-    const phone =  e.target.querySelector("#tel")
-    const txt = `Olá ${name.value}, Seu cadastro foi finalizado, favor verifique
-    seu email (${email.value}) para finalizar o seu cadastro, CPF/CNPJ ${cpf_cnpj.value},
-    data de nascimento ${birthday.value}, Tel ${phone.value}`
-    
-    if(aluno.checked == true){
-        alert("é aluno")
-    }else{
-        alert("é professor")
+    if (passAdm != null){
+        var passAdm = document.getElementById("adm_pass")
+        var passwordDefault = "123456"
     }
 
-    console.log(txt)
+    const name = document.querySelector("#name")
+    const email = document.querySelector("#email")
+    const cpf_cnpj = document.querySelector("#cpf")
+    const senha = document.querySelector("#senha")
+    const senhaConfirm = document.querySelector("#senha2")
 
-    setResultado(txt, true)
-    // setTimeout(() => {window.location.reload()},5000)
+    console.log(senha.value)
+    console.log(senhaConfirm.value)
 
-    aluno.checked == true ? tipo = "1" : tipo = "2"
+    if (senha.value != senhaConfirm.value){
+        e.preventDefault()
+        window.alert("as senhas devem ser iguais")
+        
+    }else if(TestaCPF(cpf_cnpj.value) == false){
+        window.alert("O CPF/CNPJ não é válido")
+        e.preventDefault()
+    }else if(!passAdm.value && !passwordDefault || passAdm.value != passwordDefault){
+        e.preventDefault()
+        window.alert("a senha de ADM está incorreto")
+    }else{
+        window.alert("Sucesso no cadastro")
+    }
 
+//cnpj completo 18 carc cpf 14 
 
     const jsonPost = {
         "name": name.value,
         "email": email.value,
         "user_type_id": tipo,
-        "password":123456,
+        "password": senha,
         "is_active": "1",
-        "cpf_cnpj": cpf_cnpj.value,
-        "terms": "1",
-        "birthday": birthday.value,
-        "phone": phone.value
+        "cpf_cnpj": cpf_cnpj.value
     }
 
-    //no init foram passados todos os params que precisamos para usar o fetch no método post
-    
+    var url = `/registrado?dados=${jsonPost}`;
+    fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            console.log(data); // Exibe a resposta do servidor no console
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+        });
+
     console.log(jsonPost)
-    const init = {
-        method: "POST",
-        headers:{
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(jsonPost)   
-    }
-
-    // chamar o post pelo fetch
-    // const response = await fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/user-teste", init)
-    // const dados = await response.json()
-    // console.log(dados)
-
+    return true
+    // window.location.href = `/registrado`
 })
-
-// {
-//     "name": "Gabriel",
-//     "email": "gabriel.spavia@gmail.com",
-//     "user_type_id": "1",
-//     "password": "123456",
-//     "is_active": "1",
-//     "cpf_cnpj": "51804500000117",
-//     "terms": "1",
-//     "birthday": "17/09/1998",
-//     "phone": "48999999999"    
-//   }  

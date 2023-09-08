@@ -31,6 +31,14 @@ body {
   border-radius: 10px;
 }
 
+.Tipo {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;

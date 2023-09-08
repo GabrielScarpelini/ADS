@@ -8,8 +8,8 @@ app = Flask(__name__)
 @app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
     cadastro_model.criarTabelaUsuario_mysql()
-    cadastro_model.criarTabelaTipo()
-    cadastro_model.criarTabelaUsuario()
+    cadastro_model.criarTabelaTipo_mysql()
+    # cadastro_model.inicializaTBTipo_mysql()
     
     if request.method == "POST":
         email = request.form.get("login")
@@ -55,7 +55,7 @@ def cadastro():
         jsonUser["is_active"] = "1"
         jsonUser["cpf_cnpj"] = cpf_cnpj
         jsonUser["phone"] = number
-        cadastro_model.inserirUsuario(jsonUser)
+        cadastro_model.inserirUsuario_mysql(jsonUser)
 
         return redirect(url_for("registrado", dados=jsonUser))
 

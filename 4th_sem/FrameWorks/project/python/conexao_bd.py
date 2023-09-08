@@ -10,9 +10,9 @@ def getConexao():
 def mySQL_conection():
     config = {
         'user': 'gabriel',
-        'password': 'mudar123',
+        'password': 'Mudar1234!',
         'host': 'localhost',  # Ou o endereço do servidor MySQL
-        'database': 'plataforma_curso',
+        'database': 'labs',
     }
-    conn = mysql.connector.connect(config)
+    conn = mysql.connector.connect(**config)
     return conn
