@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, jsonify
 from flask import request, session
 
 import cadastro_model
@@ -9,8 +9,8 @@ app.secret_key = "123456"
 @app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
     cadastro_model.criarTabelaUsuario_mysql()
-    cadastro_model.criarTabelaTipo()
-    cadastro_model.criarTabelaUsuario()
+    # cadastro_model.criarTabelaTipo()
+    # cadastro_model.criarTabelaUsuario()
     
     if request.method == "POST":
         email = request.form.get("login")
@@ -23,12 +23,6 @@ def principal():
             return 'uwu'
 
     return render_template("entrada.html")
-
-@app.route("/inicia")
-def inicia():
-    cadastro_model.inicializaTBTipo()
-    return "Tabela Tipo Atualizada"
-
 
 @app.route("/cadastro", methods=["GET","POST"])
 def cadastro():
@@ -56,11 +50,8 @@ def cadastro():
 @app.route("/registrado", methods=["GET"])
 
 def registrado():   
-    dados = session.get("dados")
+    dados = cadastro_model.listar_aluno_mysql()
     print(dados)
-    # dados = request.args.get("dados")
-    # if request.method == "POST":
-    #     return render_template("User_registered.html", name=dados["name"], Email=dados["email"])
-    return render_template("User_registered.html", name=dados["name"], Email=dados["email"], cpf=dados["cpf"])
+    return render_template("listar.html")
 
 app.run(app.run(host = 'localhost', port = 5002, debug = True))

@@ -32,15 +32,15 @@ def inserirUsuario_mysql(usuario):
     cursor.execute(statement, values)
     conn.commit()
 
-    def loginUser_mysql(email, password):
-        statement = text ("SELECT * FROM Usuario WHERE email = %s AND senha= %s",(email, password)) #esse parenteses aqui está passando os params
-        rs = conn.execute(statement)
-        usuario = rs.fetchone() 
-        print(usuario)
-        if usuario == None:
-            return None
-        # result = [dict(user) for user in usuario]
-        return usuario
+def loginUser_mysql(email, password):
+    statement = text ("SELECT * FROM Usuario WHERE email = %s AND senha= %s",(email, password)) #esse parenteses aqui está passando os params
+    rs = conn.execute(statement)
+    usuario = rs.fetchone() 
+    print(usuario)
+    if usuario == None:
+        return None
+    # result = [dict(user) for user in usuario]
+    return usuario
 
 def criarTabelaTipo(): #que guardará o tipo se é aluno ow professor
     with engine.connect() as con:    
@@ -145,3 +145,11 @@ def alterarDisciplina(id_disciplina, novos_dados):
         con.execute(sql_editar, nome=novos_dados['nome'], id_=id_disciplina)
     return disciplina
 
+def listar_aluno_mysql():
+    statements = text ("SELECT * FROM usuario")
+    rs = cursor.execute(statements)
+    usuarios = rs.fetchall()
+    if usuarios == []:                       #se nao tinha nenhuma linha
+        return None
+    result = [dict(aluno) for aluno in usuarios]
+    return jsonify(result)
