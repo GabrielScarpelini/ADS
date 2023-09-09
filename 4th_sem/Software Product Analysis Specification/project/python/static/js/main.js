@@ -21,7 +21,7 @@ function TestaCPF(strCPF) {
   
 const form = document.querySelector("#formulario")
 console.log(document)
-window.alert("esta com JS")
+// window.alert("esta com JS")
 
 form.addEventListener("submit", (e) => {
     // const aluno =  e.target.querySelector("#studant")

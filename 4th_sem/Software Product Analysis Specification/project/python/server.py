@@ -52,6 +52,6 @@ def cadastro():
 def registrado():   
     dados = cadastro_model.listar_aluno_mysql()
     print(dados)
-    return render_template("listar.html")
+    return render_template("listar.html", datas=dados)
 
 app.run(app.run(host = 'localhost', port = 5002, debug = True))
