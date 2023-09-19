@@ -18,50 +18,16 @@ function TestaCPF(strCPF) {
     if (Resto != parseInt(strCPF.substring(10, 11) ) ) return false;
     return true;
 }
-
-function AdicionaSenha(){
-    const tipo = document.getElementById("tipo")
-
-    if(tipo.value == "ADM"){
-        var fieldPass = document.createElement("input")
-
-        var labelPass = document.createElement("label")
-        labelPass.textContent = "Senha Admin"
-        labelPass.id = "label_id"
-        labelPass.setAttribute("for", fieldPass)
-
-        fieldPass.label = "Senha ADM"
-        fieldPass.type = "password"
-        fieldPass.name = "Senha Admin"
-        fieldPass.id = "adm_pass"
-        var formulario = document.getElementById("formulario")
-        formulario.appendChild(labelPass)
-        formulario.appendChild(fieldPass)
-    }else{
-        var formulario = document.getElementById("formulario")
-        var elementos = formulario.children
-        var inputPassIndex = elementos[elementos.length - 1]
-        var labelPassIndex = elementos[elementos.length - 2]
-
-        if(inputPassIndex.id == "adm_pass" && labelPassIndex.id == "label_id"){
-            formulario.removeChild(inputPassIndex)
-            formulario.removeChild(labelPassIndex)
-        }
-    }
-}
   
 const form = document.querySelector("#formulario")
-
-// conexao = mysqli_connect("localhost", "seu_usuario", "sua_senha", "seu_banco_de_dados");
+console.log(document)
+// window.alert("esta com JS")
 
 form.addEventListener("submit", (e) => {
-
+    // const aluno =  e.target.querySelector("#studant")
+    // console.log(aluno.checked)
     
-    if (passAdm != null){
-        var passAdm = document.getElementById("adm_pass")
-        var passwordDefault = "123456"
-    }
-
+    var tipo;
     const name = document.querySelector("#name")
     const email = document.querySelector("#email")
     const cpf_cnpj = document.querySelector("#cpf")
@@ -78,9 +44,6 @@ form.addEventListener("submit", (e) => {
     }else if(TestaCPF(cpf_cnpj.value) == false){
         window.alert("O CPF/CNPJ não é válido")
         e.preventDefault()
-    }else if(!passAdm.value && !passwordDefault || passAdm.value != passwordDefault){
-        e.preventDefault()
-        window.alert("a senha de ADM está incorreto")
     }else{
         window.alert("Sucesso no cadastro")
     }
@@ -110,3 +73,5 @@ form.addEventListener("submit", (e) => {
     return true
     // window.location.href = `/registrado`
 })
+
+

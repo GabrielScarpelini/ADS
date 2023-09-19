@@ -1,0 +1,13 @@
+o unicos bancos que se comunicam por OBDC são bancos microsoft
+
+o TCP IP  são os outros bancos 
+
+AC2 é dia 15, entregar uma funcionalidade, junto com o Board e fazer uma apresentação
+
+boa prática separa o back do front no git hub
+
+não pode ser SQLite, para as prox ACS
+
+colocar o nome dos bonitinhos na entrega
+
+1 cadastrar aluno meta a Ac1 

@@ -1,3 +1,0 @@
-o unicos bancos que se comunicam por OBDC são bancos microsoft
-
-o TCP IP  são os outros bancos 
