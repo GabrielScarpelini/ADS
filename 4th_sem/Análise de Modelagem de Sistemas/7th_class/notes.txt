@@ -1,0 +1,25 @@
+tem que ter semantica no que vai ir além do que for criado,
+
+do UC para a UML
+
+classes, todo o CRUD (mantér) os casos de uso e atores (que possuem essa parada do crud) 
+
+[min..max]
+* === muitos,
+0 contado === zero
+
+1 pra 1 minimo e maximo não coloca a cardinalidade
+
+quando na UML não tiver nada é um pra um
+
+composição === todo, diamante colorido
+agregação === quando precisa, diamente não preenchido
+
+quando quebra a ligação e morre o objeto parte é uma composição, diamante pintado
+quando quebra a ligação e morre o objeto todo é uma agregação diamante branco
+
+AC2 será um UML
+
+métodos do sistema são os métodos da classe
+
+o diamente sempre toca no obj todo
