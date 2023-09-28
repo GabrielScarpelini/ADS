@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"]) #laguinho monstro
 def principal():
-    cadastro_model.criarTabelaUsuario_mysql()
+    # cadastro_model.criarTabelaUsuario_mysql()
     cadastro_model.criarTabelaTipo_mysql()
     # cadastro_model.inicializaTBTipo_mysql()
     
@@ -51,9 +51,9 @@ def cadastro():
         jsonUser["name"] = nome
         jsonUser["email"] = email
         jsonUser["user_type_id"] = aluno
-        jsonUser["password"] = 123456
+        jsonUser["senha"] = 123456
         jsonUser["is_active"] = "1"
-        jsonUser["cpf_cnpj"] = cpf_cnpj
+        jsonUser["cpf"] = cpf_cnpj
         jsonUser["phone"] = number
         cadastro_model.inserirUsuario_mysql(jsonUser)
 
