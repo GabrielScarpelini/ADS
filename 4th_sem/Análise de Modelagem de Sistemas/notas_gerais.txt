@@ -1,0 +1,29 @@
+09/10{
+    diagrama de atividades
+
+    baseado em redes de petri
+
+    é um fluxograma
+
+    retângulo de borda bicuda é um obj, com borda arredondada é uma atividade
+
+    diagrama de atividade engloba todos os casos de uso da aplicação
+
+    diagrama de atividade inicia no nó inicial e termina num nó final
+
+    retângulo arredondada = nó de atividade (recebe param)
+
+    losango == nó de decisão (losango) if [nunca vai escrever a condição dentro do
+    losango, sempre no fluxo]
+
+    condition
+    ----------->
+    
+    nó de objeto = retangulo com as bordas retas
+
+    o retângulo pequeno no diagrama sequencia, é uma "alocação de memória" para não perder o dado que está 
+    retornando
+
+    vantagem do diagrama de atividade ac4
+
+}
