@@ -38,3 +38,17 @@ redis é um bando de dados em núvem, o que fica momentãneo ex{
     sendo um BD em núvem com um tempo limite.
 }
 
+
+vamos fazer um crud completo de aluno com uma API (não sei ainda 
+se iremos criar a API ou como será feito)
+
+padrão mvc, docker, 
+
+id 1 aluno id 2 professor
+
+eval em python olha a string e o tranforma no que ele parece
+
+19/10{
+    prova na próxima quinta, 26/10
+    code na sala de aula, vai ser em sala na próx aula, sendo assim será dinâmico como uma prova 
+}
