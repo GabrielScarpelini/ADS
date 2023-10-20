@@ -1,3 +1,7 @@
+fetch()
+
+const express = require('express')
+
 var lista = [{
     nome: "coca cola",
     qnt: 5,
@@ -17,6 +21,11 @@ var lista = [{
 for(var i = 0; i<lista.length;i++){
     lista[i].valor_total = lista[i].qnt * lista[i].valor
 }
+
+fetch("")
+  .then(function (response) {
+    return response.blob();
+  })
 
 console.log(lista)
 
