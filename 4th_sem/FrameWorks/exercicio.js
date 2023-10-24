@@ -1,6 +1,23 @@
-fetch()
+fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/dados", {
+method: 'GET',
+}).then(response => response.json())
+.then(result => console.log(JSON.stringify(result.data)))
 
-const express = require('express')
+
+// fetch("http://api-go-wash-efc9c9582687.herokuapp.com/api/",{
+//     method: "POST",
+//     body: JSON.stringify({
+//         nome:"Test"
+//     }),
+//     headers: 'Content-Type: application/json',
+//     mode: "cors",
+// }).then(response =>{
+//     return response
+// }).then(response =>{
+//     console.log(response)
+// })
+
+
 
 var lista = [{
     nome: "coca cola",
@@ -21,11 +38,6 @@ var lista = [{
 for(var i = 0; i<lista.length;i++){
     lista[i].valor_total = lista[i].qnt * lista[i].valor
 }
-
-fetch("")
-  .then(function (response) {
-    return response.blob();
-  })
 
 console.log(lista)
 
