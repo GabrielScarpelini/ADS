@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-11-06T23:27:57.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="UB33Rbw0ss5uxgknoNMk" version="22.0.8" type="device">
+  <diagram name="Página-1" id="tV7MYQnc6RVSpJmPihY-">
+    <mxGraphModel dx="2183" dy="2418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-3" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;ellipse;fillColor=#000000;fontSize=13;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=cdYJLrX9UGn2;" parent="1" vertex="1">
+          <mxGeometry x="-804" y="-791" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-4" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=1.038;exitY=0.5;exitPerimeter=0;lucidId=cdYJKSm4~Qq3;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-3" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-580" y="-776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-6" value="Aplicar de Prova" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=cdYJUeBH9Z-J;" parent="1" vertex="1">
+          <mxGeometry x="-761" y="-809" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-7" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.7px;color:#333333;&quot;&gt;Aplicando Prova&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;startSize=25;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=stackLayout;resizeParent=1;dropTarget=0;rounded=1;arcSize=20;fontStyle=0;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;" parent="1" vertex="1">
+          <mxGeometry x="-579" y="-821" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-8" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13.3px;color:#333333;&quot;&gt;do / Aplicar_Prova()&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=20;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;strokeWidth=2.3;" parent="lSA-kgoTXlHPsZNZCV_7-7" vertex="1">
+          <mxGeometry y="25" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-9" value="Execução Da Prova" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=cdYJS~u95GyL;" parent="1" vertex="1">
+          <mxGeometry x="-462" y="-809" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-10" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=1.009;exitY=0.5;exitPerimeter=0;lucidId=cdYJQxV~ZTEk;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-7" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-251" y="-776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-11" value="Finalização de prova" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=cdYJJg0UVkpA;" parent="1" vertex="1">
+          <mxGeometry x="-193" y="-712" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-12" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.7px;color:#333333;&quot;&gt;Corrigindo Prova&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="swimlane;startSize=25;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=stackLayout;resizeParent=1;dropTarget=0;rounded=1;arcSize=20;fontStyle=0;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;" parent="1" vertex="1">
+          <mxGeometry x="-263" y="-491" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-13" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12.7px;&quot;&gt;do / corrigir_prova()&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=20;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;strokeWidth=2.3;" parent="lSA-kgoTXlHPsZNZCV_7-12" vertex="1">
+          <mxGeometry y="25" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-14" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=-0.009;exitY=0.5;exitPerimeter=0;lucidId=cdYJmYvSP~hY;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-12" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-264" y="-450" />
+              <mxPoint x="-294" y="-450" />
+              <mxPoint x="-294" y="-619" />
+            </Array>
+            <mxPoint x="-439" y="-619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-15" value="Nota" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=cdYJJGktSA2E;" parent="1" vertex="1">
+          <mxGeometry x="-474" y="-649" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-16" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;outline=end;symbol=terminate;strokeColor=#000000;fillColor=#ffffff;fontSize=13;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=cdYJeuvSJso6;" parent="1" vertex="1">
+          <mxGeometry x="-769" y="-634" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-17" target="lSA-kgoTXlHPsZNZCV_7-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-17" value="Relacionamento" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=rhombus;fontSize=16.7;fontColor=#333333;spacing=3.8;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=cdYJRvqlYBzf;" parent="1" vertex="1">
+          <mxGeometry x="-559" y="-671" width="120" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-18" value="[Nota Superior a Média]" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=cdYJTE~K_oH0;" parent="1" vertex="1">
+          <mxGeometry x="-694" y="-654" width="107" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-19" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.008;exitY=0.5;exitPerimeter=0;entryX=1.038;entryY=0.5;entryPerimeter=0;lucidId=cdYJ0TeTknb8;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-17" target="lSA-kgoTXlHPsZNZCV_7-16" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-37" value="[Nota Inferior a Média]" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=BoYJE3FRPotV;" parent="1" vertex="1">
+          <mxGeometry x="-487" y="-570" width="107" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-38" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;lucidId=auYJ5d2Z30kR;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-39" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-190" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-39" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.7px;color:#333333;&quot;&gt;Executando Prova&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=20;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="-805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-41" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.7px;color:#333333;&quot;&gt;Finalizando prova&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=20;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="-610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-42" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.608;entryY=-0.012;entryPerimeter=0;lucidId=5fWK~il9mKJW;" parent="1" source="lSA-kgoTXlHPsZNZCV_7-41" target="lSA-kgoTXlHPsZNZCV_7-12" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-43" value="Correção da Prova" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.3;fontColor=#333333;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=SkWKGYZ5lyFY;" parent="1" vertex="1">
+          <mxGeometry x="-203" y="-550" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-46" value="Aplicar Sub" style="shape=umlState;rounded=1;verticalAlign=top;spacingTop=5;umlStateSymbol=collapseState;absoluteArcSize=1;arcSize=10;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-569" y="-466" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSA-kgoTXlHPsZNZCV_7-48" value="Aplicar prova" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="-813" y="-850" width="800" height="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
