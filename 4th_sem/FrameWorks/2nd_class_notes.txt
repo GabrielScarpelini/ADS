@@ -52,3 +52,7 @@ eval em python olha a string e o tranforma no que ele parece
     prova na próxima quinta, 26/10
     code na sala de aula, vai ser em sala na próx aula, sendo assim será dinâmico como uma prova 
 }
+
+16/11{
+    React notes 
+}

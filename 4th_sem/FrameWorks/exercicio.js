@@ -1,7 +1,7 @@
 fetch("https://api-go-wash-efc9c9582687.herokuapp.com/api/dados", {
 method: 'GET',
-}).then(response => response.json())
-.then(result => console.log(JSON.stringify(result.data)))
+}).then(response => response.json()
+).then(result => console.log(JSON.stringify(result.data)))
 
 
 // fetch("http://api-go-wash-efc9c9582687.herokuapp.com/api/",{
@@ -16,6 +16,15 @@ method: 'GET',
 // }).then(response =>{
 //     console.log(response)
 // })
+
+// var myHeaders = new Headers();
+
+// var myInit = {
+//   method: "POST",
+//   "Authoriazation"
+//   mode: "cors",
+//   cache: "default",
+// };
 
 
 
