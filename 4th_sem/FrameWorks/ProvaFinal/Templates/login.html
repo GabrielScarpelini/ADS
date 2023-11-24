@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário Cadastrado com Sucesso</title>
+    <link rel="stylesheet" href="{{url_for('static', filename="css/style.css")}}">
+</head>
+<body>
+    <a href="/">Fazer Login</a>
+    
+    <section class="container">
+        <form method="POST">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+            <label for="password">Email</label>
+            <input type="password" id="password" name="senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+</body>
+</html>
