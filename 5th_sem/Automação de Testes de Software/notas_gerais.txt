@@ -1,0 +1,16 @@
+08/02{
+    bdd = Behavior-Driven Development
+
+    teste de unidade < teste de serviço < testes de unidade
+
+    teste te unidade{
+        config,
+        chamada,
+        afirmação
+    }
+
+    testes sem framework
+
+    assert == testa se for pra ver se uma expressão é falsa ou verdadeira
+        se faz um false dá um assertionError
+}
