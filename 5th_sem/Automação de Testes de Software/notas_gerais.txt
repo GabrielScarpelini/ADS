@@ -14,3 +14,9 @@
     assert == testa se for pra ver se uma expressão é falsa ou verdadeira
         se faz um false dá um assertionError
 }
+
+16/02{
+    unittest test runner
+
+    linha de comando python -m unittest (vai rodar todos os testes)
+}
