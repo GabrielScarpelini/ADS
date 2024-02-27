@@ -1,0 +1,8 @@
+Sistema de manuseio de estoque
+
+Dividir estoque em categorias [material de escritório, cozinha e etc...]
+
+colunas bd = nome, sku primary key, quantidade,
+
+  
+1

@@ -1,0 +1,7 @@
+15/02{
+    termos em análise de dados
+    população, censo, amostragem, estatistica
+
+    métodos probabilisticos: escolhido de forma aleatória, assim cada membro da população tem chance de fazer parte da amaostra
+    não probabilisticos: ocorrem por escolha deliberada
+}

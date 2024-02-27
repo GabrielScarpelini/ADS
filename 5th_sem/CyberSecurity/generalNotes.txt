@@ -1,0 +1,42 @@
+parte um{
+    Um pouco da cyber segurança
+
+    perigos [sequestros digitais, empresas chantageadas, nações em risco]
+
+    sequestros digitais: redes WI Fi públicas, tome cuidado pois há muitas redes Wifi fakes que podem pegar trouxas
+    empresas chantageadas: hansware (chantagem) as máquinas serão encryptadas e assim pediram um valor para liberá-las 
+    nações em risco: guerras cybernéticas
+
+    pilares de ataques{
+        amadores: 
+        hacktivistas: geralmente atacam orgãos do governo, 
+        ganho financeiro: são geralmente grupos que vão atacar empresas para ter um ganho monetário 
+        segredos comerciais e politica global: podem ser considerados terroristas 
+    }
+
+    SOC Security Operations Center {
+        proecessos > pessoas > technologia // tem que seguir esses passos pois se não nunca terá um soc completos
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    }
+
+    Pilares do SOC{
+        Tier 1: Alerta de Analistas, // analista que verifica e faz o primeiro filtro,
+        Tier 2: analistas que farão a resposta do incidente passado pelo tier 2,
+        Tier 3: vai para os analistas therat Hunters (caçadores de ameaças) // são times que farão o melhorias do SOC e aninhamentos das partes do SOC
+        soc manager: gerencia todos dessa área.
+    }
+
+    Ferramente precursora SIEM (secutiry information and Event System)
+
+    Sensores: qualquer equipamento que pode fazer o a varredura e descobrir ameaças
+
+    SOAR = Security Orchestration Automation Response
+}
+
+parte 2 SO Windows{
+
+}
+
+parte 3 endereçamento e IP{
+    RIRs Regional Internet Registries
+}
