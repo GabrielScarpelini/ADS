@@ -1,0 +1,22 @@
+20/02
+    espaço amostral são todas as possbilidades de um resultado previsto, ex jogar um dado omega = 1,2,3,4,5,6
+
+    subconjuntos: são os conjuntos dentro de um conjunto ex 1,2,3,4,5,6 sub = 2,4,6
+
+    A \/ B evento A ou B 
+
+    A /\ B evento A e B /\ == interceptado
+
+    A = 1 ,3 ,6 
+    b = 2, 3, 8
+    a /\ b = 3 A é interceptado em B 
+
+    conjunto complementar sáo todos de A 1,3,6 //nesse conjunto no exempo dos dados 1,2,3,4,5,6
+    Ae = 2,4,5
+
+    união de conjuntos = pelo menos Um dos eventos aconteça
+
+    A¹ = 1
+    A² = 3
+    A³ = 4, 5 
+    u³A = 1, 3, 4, 5 
