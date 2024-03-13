@@ -1,5 +1,7 @@
 # enumerate em python
 
+# tudo que tiver print é exemplo
+
 collection = ['eu', 'tu', "ele"]
 
 for value in collection:
@@ -9,8 +11,8 @@ mapping = {}
 # for i, value in enumerate(collection):
 #     mapping[value] = i
 
-print(list(enumerate(collection)))
-print(mapping)
+# print(list(enumerate(collection)))
+# print(mapping)
 
 
 
@@ -38,9 +40,9 @@ nomes, pessoas = zip(*pessoas)
 d1 = {"A": "value", "B": [0,1,2,3]}
 
 d1[5] = "valor"
-# del d1[5]
+del d1[5]
 
-# d1.pop("A")
+d1.pop("A")
 
 
 # print(d1[5])
@@ -64,5 +66,72 @@ for key, value in zip(listKeys, listValues):
 
 mappin2 = dict(zip(listKeys, listValues))
 
-print(mapping)
-print(mappin2)
+# print(mapping)
+# print(mappin2)
+
+
+# list, dict comprehensions
+
+condiction = 3>=0
+expression = 0
+
+[expression for val in collection if condiction]
+# SÃO IGUAIS ESSES DOIS, MAS UM É UM FOR DE UMA LINHA.
+result = []
+
+for val in collection:
+    if condiction:
+        result.append(expression)
+
+string = ["eu", "tu", "ele"]
+
+# samples 
+# print([x.upper() for x in string])
+# print([x.upper() for x in string if len(x)>2])
+
+locMap = {val : index for index, val in enumerate(string)}
+
+# print(locMap)
+
+allData = [["JOÂO", "Maria"],
+           ["JOHN", "Mary"]]
+
+interestNames = []
+
+for names in allData:
+    enoughA = [name for name in nomes if name.count("a") >= 2]
+    interestNames.append(enoughA)
+
+result = [name for names in allData for name in names if name.count("a") >= 2]
+
+# print(result)
+
+someTuple = [(1,2,3), (4,5,6), (7,8,9)]
+
+line = [x for tup in someTuple for x in tup]
+
+
+lists = [[x for x in tup] for tup in someTuple]
+
+# print(lists)
+
+#  em funções com valor default, o valor default vem sempre dps do args posisionais \/
+def fucki(a, x, c=1):
+    return c
+
+# print(fucki(a, b))
+
+state = ["Alabama", "havaii", "alabama", "georgia", "florida$$", "south carolina"]
+
+
+import re #
+
+def clearString(string):
+    result = []
+    for value in string:
+        value = value.strip() #remove espaços em branco
+        value = re.sub("[$!?]", "", value) # retirar os caracteres 
+        result.append(value)
+        return result
+    
+print(clearString([x for x in state]))
