@@ -1,10 +1,4 @@
-import pytest
-
-
 from src.cliente import Cliente
-
-
-@pytest.fixture
 
 def cliente():
     return Cliente('Jose da Silva', '123456789-00', '1234')

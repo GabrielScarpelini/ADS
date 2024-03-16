@@ -33,3 +33,14 @@ def test_sacar_valor_em_conta_bancaria_devolve_saldo_menor():
     assert conta.get_saldo(senha='1234') == 100
     conta.sacar(20, '1234')
     assert conta.get_saldo(senha='1234') == 80
+
+def test_criar_cliente_deve_devolver_nome_de_cliente_valido(cliente):
+
+    assert cliente.nome == 'Jose da Silva'
+
+
+def test_criar_cliente_deve_devolver_cpf_do_cliente_valido(cliente):
+    assert cliente.get_cpf() == '123456789-00'
+
+def test_criar_cliente_deve_devolver_senha_do_cliente_valida(cliente):
+    assert cliente.get_senha() == '1234'
