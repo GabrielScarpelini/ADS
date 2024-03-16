@@ -1,0 +1,1 @@
+ARQUITETURA CRIADA EM PARTES, TEM QUE PEGAR O CONTEÚDO EAD https://sites.google.com/faculdadeimpacta.com.br/auts-p6?pli=1&authuser=2
