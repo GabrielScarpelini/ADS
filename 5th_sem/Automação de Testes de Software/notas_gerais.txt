@@ -20,3 +20,11 @@
 
     linha de comando python -m unittest (vai rodar todos os testes)
 }
+
+01/03{
+    refatoramento de códigos, ele tem que estar passando nos testes para ser refatorado
+
+    caixa preta, var entrada e saída do códido
+    caixa branca. ana
+    lisa os scripts
+}

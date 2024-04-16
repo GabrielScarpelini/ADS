@@ -1,14 +1,11 @@
 from src.livro import Livro
-
 from src.livroRepositorio import LivroRepositorio
-
-
 
 class LivroRepositorioFake(LivroRepositorio):
 
     def __init__(self):
         self.livros = []
-
+        
     def inserir(self, livro: Livro):
         self.livros.append(livro)
 
