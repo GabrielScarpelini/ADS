@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://tabnet.datasus.gov.br/cgi/webtabx.exe?bd_pni/cpnibr.def
+HostUrl=http://tabnet.datasus.gov.br/cgi/csv/cpnibr17132966525.csv
