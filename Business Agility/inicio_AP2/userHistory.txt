@@ -34,3 +34,14 @@ IMPLEMTAÇÃO DO MOTOR: trazer uma certa nostaugia ao usuário final
 DEV DA LÓGICA DO JOGO E PROGRESSÃO E DESAFIOS: fazer que player sinta toda a evolução, assim podendo passar por mais desafios
 DEV DE MATERIAIS PROMOCIONAIS INICIAIS: fazer o o usuário final sentir que foi uma ótima escolha pegando por um preço acessível
 DEFINIÇÃO DE DE DATA LANÇAMENTO E PREÇO: ser em alguma data especial para que o usuário possa comprar o jogo em uma data memorável
+
+CRIAÇÃO DE NARRATIVA: Retorno reputacional
+DESENVOLVIMENTO DOS PERSONAGENS: retorno financeiro
+CRIAÇÃO DO AMBIENTE DO JOGO: retorno financeiro
+IMPLEMENTAÇÃO DE CONTROLES BÁSICOS retorno finanaceiro
+CRIAÇÃO DOS PRIMEIROS NÍVEIS: retorno financeiro
+DESIGN DE INTERFACE DO USUÁRIO: retorno financeiro
+IMPLEMTAÇÃO DO MOTOR: retorno financeiro
+DEV DA LÓGICA DO JOGO E PROGRESSÃO E DESAFIOS: retorno financeiro
+DEV DE MATERIAIS PROMOCIONAIS INICIAIS: Retorno reputacional
+DEFINIÇÃO DE DE DATA LANÇAMENTO E PREÇO: Retorno reputacional
