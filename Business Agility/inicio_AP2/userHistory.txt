@@ -1,0 +1,36 @@
+CRIAÇÃO DE NARRATIVA o Rafael deseja que o jogo seja de aventura com trama contando a história de um ex combatente da marinha que teve sua esposa rapidata
+DESENVOLVIMENTO DOS PERSONAGENS: o Rafael gostaria que o personagem seja implacável, consiga superar tudo que encontre pela frente.
+CRIAÇÃO DO AMBIENTE DO JOGO: o Rafael adoraria que o jogo se passasse em uma ilha porém o andamento do jogo ele gostaria de mais cenários ao rewdor do mundo; 
+IMPLEMENTAÇÃO DE CONTROLES BÁSICOS: O Rafael adora jogos em que o personegem possa correr, saltar, se pendurar e com a camera em 1ª pessoa ele se sente dentro do jogo
+CRIAÇÃO DOS PRIMEIROS NÍVEIS: ele espera que o jogo começe numa ilha, com vasta vegetação e vida animais, pessoas, trafego, etc... E também faça semtir a dor do personagem em descobrir sobre sua esposa
+DESIGN DE INTERFACE DO USUÁRIO: O Rafael adora que saber quantas balas, granadas e afins ele ainda possui, e gosta de iteração dinâmica entre player x cenário
+IMPLEMTAÇÃO DO MOTOR: O Rafael gosta bastante de jogos desenvolvidos na Unit por serem práticos, ele deseja que esse jogo seja criado assim com esse motor;
+DEV DA LÓGICA DO JOGO E PROGRESSÃO E DESAFIOS: o dito cujo Rafael adora jogos em que a progressão é linear, assim liberando armas novas, skills novas e aprimorando a saúde e caracteristicas do personagem
+DEV DE MATERIAIS PROMOCIONAIS INICIAIS: o Rafael adoraria que houvesse um pack onde ele pode comprar o jogo e suas DLC's com um desconto caso comprados juntos
+DEFINIÇÃO DE DE DATA LANÇAMENTO E PREÇO: o Rafale gostaria muito que o jogo fosse lançado perto de seu aniversário, assim ele usaria isso para ganhá-lo como presente.
+
+
+CRITÉRIOS DE ACEITE
+
+CRIAÇÃO DE NARRATIVA: consultoria com alguém da área militar para dar veracidade a história e coletar as técnicas de combate de um militar;
+DESENVOLVIMENTO DOS PERSONAGENS: o jogo consiga transmitir o sentimento por meio da história de seus personagens;
+CRIAÇÃO DO AMBIENTE DO JOGO: que passe em muitos ambientes diferentes, em diferentes locais do mundo;
+IMPLEMENTAÇÃO DE CONTROLES BÁSICOS: o personagem não ter alguma função faltante, assim podendo gerar bug ou falhas;
+CRIAÇÃO DOS PRIMEIROS NÍVEIS: ser algo que seja fácil mas nem tanto para dar imersão e sentimento de progresso a o jogador;
+DESIGN DE INTERFACE DO USUÁRIO: o jogo pode mostrar as quantidades no inventário, e ter um menu onde pode ser administrado os itens que o player carrega;
+IMPLEMTAÇÃO DO MOTOR: ser usado a Unity para desenvolvimento, assim poupando tempo e dinheiro;
+DEV DA LÓGICA DO JOGO E PROGRESSÃO E DESAFIOS: ter uma vasta gama de habilidades para o player escolher conforme for avançando, e assim trazendo beneficios ao decorrer do jogo;
+DEV DE MATERIAIS PROMOCIONAIS INICIAIS: Iniciar a campanha de vendas fazendo "combos" assim podendo lançar em conjunto e fornecer descontos aos players;
+DEFINIÇÃO DE DE DATA LANÇAMENTO E PREÇO: Colocar um preço acessível não pensando em lucro imadiato, e sim ser um jogo atemporal podendo ser comprado além de seu lançamento;
+
+Valor de retorno
+CRIAÇÃO DE NARRATIVA: O jogador deve aproveitar toda a história do começo ao final
+DESENVOLVIMENTO DOS PERSONAGENS: o Jogador poder sentir o sentimento como se fosse dentro do jogo
+CRIAÇÃO DO AMBIENTE DO JOGO: fazer o jogador se sentir imerso dentro do ambiente do jogo
+IMPLEMENTAÇÃO DE CONTROLES BÁSICOS ser prático para o jogador nem precisar de tutorial para fazer coisas simples
+CRIAÇÃO DOS PRIMEIROS NÍVEIS: fazer o jogador sentir que é uma fase fácil porém com um certo desafio de 1ª impressão
+DESIGN DE INTERFACE DO USUÁRIO: o jogador sentir um "HUD" bem leve onde não atrapalhe na gameplay
+IMPLEMTAÇÃO DO MOTOR: trazer uma certa nostaugia ao usuário final
+DEV DA LÓGICA DO JOGO E PROGRESSÃO E DESAFIOS: fazer que player sinta toda a evolução, assim podendo passar por mais desafios
+DEV DE MATERIAIS PROMOCIONAIS INICIAIS: fazer o o usuário final sentir que foi uma ótima escolha pegando por um preço acessível
+DEFINIÇÃO DE DE DATA LANÇAMENTO E PREÇO: ser em alguma data especial para que o usuário possa comprar o jogo em uma data memorável
